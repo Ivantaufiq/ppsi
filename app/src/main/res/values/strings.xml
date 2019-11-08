@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Invuya</string>
+
+    <string name="nol">0</string>
+
+    <string name="error">Error</string>
+    <string name="ok">Ok</string>
+    <string name="can_not_create">Tidak Dapat Membuat Akun Baru</string>
+    <string name="invalid_account">Akun Tidak Terdaftar</string>
+    <string name="emailexists">Email Telah Tersedia, Gunakan Email Lain</string>
+
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="nama">Nama</string>
+    <string name="kpassword">Konfirmasi Kata Sandi</string>
+    <string name="halmasuk">ke Halaman Masuk</string>
+    <string name="keluar">Keluar</string>
+
+    <string name="kembali">Kembali</string>
+    <string name="slgkpny">Selengkapnya</string>
+    <string name="ganti">Ganti Foto</string>
+
+    <string name="cariproyek">Daftar Proyek</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="pembayaran">Pembayaran</string>
+    <string name="profil">Profil</string>
+
+    <string name="search">Temukan Proyek Yang Ingin Anda Modali</string>
+    <string name="history">Lihat Riwayat Permodalan</string>
+    <string name="payment">Lakukan Pembayaran Investasi</string>
+    <string name="user">Informasi Tentang Data Diri Anda</string>
+
+    <string name="berita1">Cara Budidaya Ikan Nila Modern</string>
+    <string name="berita2">Langkah Mudah Membuat Pakan Ikan </string>
+    <string name="btnbaca">Baca Disini </string>
+
+    <string name="informasiakun">Informasi Akun</string>
+    <string name="datadiri">Data Diri </string>
+    <string name="syarat">Syarat dan Ketentuan </string>
+    <string name="faq">FAQ </string>
+    <string name="jadimitra">Jadi Mitra </string>
+    <string name="hubkami">Hubungi Kami </string>
+
+    <string name="gantiemail">Ganti Email</string>
+    <string name="gantikatasandi">Ganti Kata Sandi </string>
+    <string name="gantinohp">Ganti No Handphone </string>
+
+    <string name="menu">MENU </string>
+    <string name="berita_terbaru">BERITA TERBARU </string>
+
+    <!--    Daftar Proyek-->
+    <string name="lele">Budidaya Ikan Lele di Pontianak </string>
+    <string name="lele2">Budidaya Ikan Lele Kolam Terpal </string>
+    <string name="nila">Budidaya Ikan Nila di Sungai Rengas, Pontianak </string>
+    <string name="ikanmas">Budidaya Ikan Mas di Pontianak </string>
+    <string name="gabus">Budidaya Ikan Gabus Menggunakan Kolam Terpal </string>
+    <string name="patin">Budidaya Ikan Patin di Pontianak </string>
+    <string name="mujair">Budidaya Ikan Mujair di Pontianak </string>
+
+    <!--    Data Diri-->
+    <string name="namalgkp">Nama Lengkap </string>
+    <string name="alamat">Alamat </string>
+    <string name="date">Tanggal Lahir </string>
+    <string name="gender">Jenis Kelamin </string>
+    <string name="pekerjaan">Pekerjaan </string>
+    <string name="nik">NIK </string>
+
+    <string name="emailbaru">Masukkan Email Baru</string>
+    <string name="konfirmasipw">Konfirmasi Kata Sandi</string>
+    <string name="pwsaatini">Kata Sandi Saat Ini</string>
+    <string name="pwbaru">Kata Sandi Baru</string>
+    <string name="ulangpw">Ulangi Kata Sandi</string>
+    <string name="simpan">Simpan</string>
+    <string name="nohp">No Handphone</string>
+    <string name="nohpbaru">Masukkan No Handphone Baru</string>
+
+
+    <!--    syarat dan ketentuan-->
+    <string name="ketentuanumum">Ketentuan Umum </string>
+    <string name="isiketentuanumum">1.	Invuya menyediakan lembaran yang berupa saham dimana perlembar saham bernilai Rp 100.000,-
+        hingga maksimal total dana crowdfunding yang dibutuhkan untuk memenuhi kebutuhan proyek budidaya ikan.\n\n
+        2.	Investor harus berusia minimal maupun investor yang telah berusia lebih dari 19 tahun dan mampu menggunakan teknologi.\n\n
+        3.	Produk investasi perikanan di INVUYA adalah investasi budidaya ikan per kolam berdasarkan besaran dana yang dibutuhkan
+        untuk melakukan budidaya ikan tersebut hingga masa panen.\n\n
+        4.	Satu siklus investasi pada invuya memiliki waktu yang berbeda bergantung dari jenis budidaya ikan yang dipilih investor.\n\n
+        5.	Hasil dari investasi akan diberikan kepada investor setelah 2x24 jam dari masa panen.\n\n
+        6.	INVUYA dan mitra petambak ikan tidak memiliki kewajiban untuk mengganti dana investasi dari investor yang digunakan untuk kegiatan
+        budidaya ikan, akan tetapi INVUYA dan mitra petambak ikan bekerja keras untuk menekan risiko kegagalan hasil budidaya dengan
+        berbagai tindakan preventif dan restrukturisasi investasi.\n\n
+        7.	INVUYA tidak menyediakan segala bentuk rekomendasi atau paksaan investasi terkait pilihan-pilihan budidaya dalam situs INVUYA.
+        Kegiatan investasi merupakan secara sadar keputusan investor sendiri.
+    </string>
+
+    <string name="hak">Hak dan Kewajiban Investor </string>
+    <string name="isihakinv"><b>Hak Investor</b>\n
+        1.	Investor berhak mendapatkan bagi-hasil dari investasi yang dimilikinya
+        ketika budidaya ikan dipanen menghasilkan laba bersih.\n\n
+        2.	Investor berhak atas laporan kemajuan budidaya ikan dan pemeliharaan budidayanya melalui
+        sistem pelaporan yang disiapkan di dalam aplikasi mobile INVUYA.\n\n
+        3.	Investor berhak mendapatkan update laporan terkait perkembangan budidaya secara berkala selama 2 minggu sekali.\n\n
+        4.	Investor dari waktu ke waktu berhak untuk melihat secara fisik investasi budidaya ikan yang dimilikinya.
+        Seluruh biaya perjalanan menjadi tanggungjawab investor terkait. \n\n
+        5.	Investor berhak mendapatkan sertifikat digital atas proyek budidaya perikanan yang telah mereka danai.
+        Informasi dalam sertifikat digital tersebut berisi nama investor, nama proyek, serta nominal uang yang telah diinvestasikan.</string>
+    <string name="isikewajiban">
+        <b>Kewajiban Investor</b>\n
+        1.	Investor wajib melengkapi data diri sebelum memulai investasi.\n\n
+        2.	Investor wajib melakukan pembayaran melalui transfer bank yang sudah ditentukan oleh INVUYA mulai dari minimal 1 lembar = Rp 100.000,-
+        hingga maksimal total dana crowdfunding yang dibutuhkan.\n\n
+        3.	Investor wajib melakukan verivikasi transfer dana ke platform INVUYA.\n\n
+        4.	Investor yang mengunjungi langsung lokasi budidaya ikan yang diinvestasikan,
+        wajib ikut menjaga ekosistem budidaya agar tidak mengganggu kestabilan ekosistem budidaya.
+    </string>
+
+
+    <string name="faq1">Apa itu INVUYA?</string>
+    <string name="isifaq1">Invuya merupakan sebuah platform investasi proyek budidaya perikanan
+        yang berbasis crowdfunding dengan memanfaatkan teknologi. Invuya menghubungkan petambak
+        yang telah terkualifikasi tetapi tidak memiliki modal yang cukup dalam menjalankan bisnis
+        perikanannya dengan masyarakat yang berminat untuk melakukan investasi. Keuntungan dari
+        penjualan hasil panen akan dibagikan kepada para petambak, investor, serta INVUYA.
+        Selain mendapatkan keuntungan finansial,para investor secara tidak langsung turut
+        berkontribusi dalam mengoptimalan pemanfaatan lahan dan menyejahterakan para petambak.
+        Selain itu, INVUYA juga membantu para petambak dalam memasarkan hasil panennya serta
+        menyediakan informasi terkait sektor perikanan bagi masyarakat khususnya di kota Pontianak.  </string>
+
+    <string name="faq2">Bagaimana cara berinvestasi di INVUYA?</string>
+    <string name="isifaq2">1.	Investor dapat memulai dengan mengIsi form yang sudah disediakan.\n\n
+        2.	Investor menentukan jumlah investasi.\n\n
+        3.	Investor melakukan Transfer dana ke bank yang sudah dicantumkan oleh INVUYA.\n\n
+        4.	Setelah melakukan pembayaran investor harus melakukan verifikasi pembayaran.\n\n
+        5.	Investor dapat melakukan pemantauan secara berkala.</string>
+
+    <string name="faq3">Berapa keuntungan yang didapatkan ketika bergabung dengan INVUYA?</string>
+    <string name="isifaq3">Keuntungan diperoleh dari hasil penjualan ikan setelah dikurangi seluruh biaya operasi.
+        Dari total keuntungan hasil penjualan, dilakukan bagi hasil dengan pembagian berikut.\n
+        1.	Investor 50% \n\n
+        2.	petambak ikan 35% \n\n
+        3.	INVUYA 15% \n\n
+        Proporsi bagi-hasil dapat berbeda untuk setiap produk, bergantung pada kontrak kerjasama antara INVUYA dengan mitra,
+        dan dapat dilihat pada dokumen Prospektus.
+</string>
+
+    <string name="faq4">Berapa biaya minimal untuk berinvestasi?</string>
+    <string name="isifaq4">Untuk berinvestasi bisa dimulai dengan biaya minimal yang perlu investor keluarkan yaitu
+        1 lembar = Rp 100.000,dengan dana minimum yang relatif rendah, siapa saja bisa bergabung untuk melakukan investasi pada INVUYA.</string>
+
+    <string name="faq5">Kapan investor bisa mendapatkan keuntungan?</string>
+    <string name="isifaq5">Investor akan mendapatkan keuntungan ketika masa panen tiba dan hasil panen berhasil dijual.
+    </string>
+
+    <string name="faq6">Bagaimana cara melakukan pembayaran?</string>
+    <string name="isifaq6">Untuk melakukan transaksi pembayaran investor bisa melakukan transfer ke bank yang sudah ditentukan
+        kemudian melakukan konfirmasi pembayaran pada app mobile INVUYA.
+    </string>
+
+    <string name="faq7">Apa ketentuan untuk menjadi investor?</string>
+    <string name="isifaq7">INVUYA berfokus pada mitra kerja maupun investor yang telah berusia
+        lebih dari 19 tahun dan mampu menggunakan teknologi.
+    </string>
+
+    <string name="faq8">Bagaimana cara memantau perkembangan proyek ?</string>
+    <string name="isifaq8">Investor dapat memantau perkembangan proyek dengan mendapatkan laporan kemajuan budidaya ikan
+        dan pemeliharaan budidayanya melalui sistem pelaporan yang disiapkan di dalam aplikasi mobile INVUYA.
+        Update laporan terkait perkembangan budidaya secara berkala selama 2 minggu sekali.
+    </string>
+
+    <string name="faq9">Apakah saya bisa berkunjung ke lokasi budidaya ikan yang saya danai?</string>
+    <string name="isifaq9">Bisa, anda berkunjung ke lokasi budidaya ikan dengan menghubungi kami terlebih dahulu.
+        Maksimal konfirmasi adalah H-1, agar kami bisa memberikan arahan yang terbaik ketika anda mengunjungi lokasi budidaya.
+    </string>
+
+    <string name="faq10">Bagaimana saya bisa melakukan pencairan dana yang telah saya salurkan dan bagi hasil yang saya terima?</string>
+    <string name="isifaq10">Dana akan cair dalam waktu 2x24 jam ketika hasil tambak berhasil dijual,dana akan di transfer ke
+        rekening investor.
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="helo">Hello blank fragment</string>
+</resources>
