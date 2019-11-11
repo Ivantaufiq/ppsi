@@ -5,37 +5,48 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import com.example.invuya.Entitas.Account;
-import com.example.invuya.RegisterActivity;
 
 public class AccountDB extends SQLiteOpenHelper {
 
-    private static String dbName = "admin";
+    private static String dbName = "admin.db";
     private static String tableName = "account";
     private static String idColumn = "id";
     private static String namaColumn = "nama";
     private static String passwordColumn = "password";
     private static String emailColumn = "email";
+    private static String nikColumn = "nik";
+
+    private static int DATABASE_VERSION = 1;
 
     public AccountDB(Context context){
-        super(context, dbName, null, 1);
+        super(context, dbName, null, DATABASE_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL("create table " + tableName + "(" +
                 idColumn + " integer primary key autoincrement, " +
+                emailColumn + " text not null ," +
+                passwordColumn + " text not null, " +
                 namaColumn +" text not null," +
-                passwordColumn + " text not null," +
-                emailColumn + " text not null" +
+                nikColumn + " integer " +
                 ")");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
         onCreate(sqLiteDatabase);
+    }
+
+    public void pilihemail(TextView textView){
+        Cursor cursor = this.getReadableDatabase().rawQuery("SELECT * FROM account ", null);
+        textView.setText("");
+        while (cursor.moveToNext()){
+            textView.append(cursor.getString(1));
+        }
     }
 
     public boolean create(Account account){

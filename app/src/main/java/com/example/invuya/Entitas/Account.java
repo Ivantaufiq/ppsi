@@ -9,6 +9,16 @@ public class Account implements Serializable {
     private String password;
     private String email;
 
+    public int getNik() {
+        return nik;
+    }
+
+    public void setNik(int nik) {
+        this.nik = nik;
+    }
+
+    private int nik;
+
     public int getId() {
         return id;
     }

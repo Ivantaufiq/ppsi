@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">Invuya</string>
-
     <string name="nol">0</string>
+
+
+    <string name="resitext">Isi ulang dana kamu telah selesai diproses dengan menggunakan Bank Transfer-Virtual
+    Account BNI</string>
+    <string name="resitext2">Isi ulang kamu dicatat dengan</string>
+    <string name="resitext3">Transfer dana kamu sebelum 2x24 Jam</string>
+    <string name="resitext4">Nomor Pembayaran bank transfer - virtual account</string>
+    <string name="noresi">9888-0000-0432-0278</string>
+
+    <string name="noisiulang">Nomor Isi Ulang TF0000000000124</string>
 
     <string name="error">Error</string>
     <string name="ok">Ok</string>

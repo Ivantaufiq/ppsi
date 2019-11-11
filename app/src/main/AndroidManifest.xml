@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.invuya">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -12,37 +12,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DaftarProyek.IkanMujair"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme"></activity>
-        <activity android:name=".DaftarProyek.IkanLele2"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme"/>
-        <activity android:name=".DaftarProyek.IkanGabus"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme"/>
-        <activity android:name=".DaftarProyek.IkanMas"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme"/>
-        <activity android:name=".DaftarProyek.IkanPatin"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme"/>
-        <activity android:name=".DaftarProyek.IkanNila"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme"/>
-        <activity android:name=".IntroActivity">
+        <activity android:name=".TransferBank.BankBNI"></activity>
+        <activity android:name=".ResiActivity" />
+        <activity android:name=".KonfirmasiPembayaran.KonfirmasiLele">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Pembayaran.PembayaranLele" />
+        <activity
+            android:name=".DaftarProyek.IkanMujair"
+            android:label="@string/kembali"
+            android:parentActivityName=".Home.CariProyekActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".DaftarProyek.IkanLele2"
+            android:label="@string/kembali"
+            android:parentActivityName=".Home.CariProyekActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".DaftarProyek.IkanGabus"
+            android:label="@string/kembali"
+            android:parentActivityName=".Home.CariProyekActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".DaftarProyek.IkanMas"
+            android:label="@string/kembali"
+            android:parentActivityName=".Home.CariProyekActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".DaftarProyek.IkanPatin"
+            android:label="@string/kembali"
+            android:parentActivityName=".Home.CariProyekActivity"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".DaftarProyek.IkanNila"
+            android:label="@string/kembali"
+            android:parentActivityName=".Home.CariProyekActivity"
+            android:theme="@style/Theme" />
+        <activity android:name=".IntroActivity"></activity>
         <activity
             android:name=".DaftarProyek.IkanLele"
             android:label="@string/kembali"

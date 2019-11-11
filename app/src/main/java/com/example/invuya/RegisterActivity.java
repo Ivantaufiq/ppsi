@@ -16,12 +16,6 @@ import android.widget.Toast;
 import com.example.invuya.Database.AccountDB;
 import com.example.invuya.Entitas.Account;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-
 public class RegisterActivity extends AppCompatActivity {
     EditText txtnama, txtemail, txtpassword, kpassword;
     Button btndaftar, btnkembali;
@@ -43,8 +37,6 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (txtemail.length() == 0){
                     txtemail.setError("Email Tidak Boleh Kosong");
-                }else if (txtnama.length() == 0){
-                    txtnama.setError("Nama Tidak Boleh Kosong");
                 }else if (txtpassword.length() == 0){
                     txtpassword.setError("Password Tidak Boleh Kosong");
                 }else {

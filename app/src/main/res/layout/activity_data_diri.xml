@@ -31,6 +31,7 @@
         android:textAllCaps="false"/>
 
     <EditText
+        android:id="@+id/inputnamaprofil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
@@ -38,6 +39,7 @@
         android:layout_marginTop="15dp"/>
 
     <EditText
+        android:id="@+id/nikprofil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
@@ -69,6 +71,7 @@
         android:drawableRight="@drawable/ic_keyboard_arrow_right_blue_24dp"/>
 
     <Button
+        android:id="@+id/btnsimpan"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="@string/simpan"
