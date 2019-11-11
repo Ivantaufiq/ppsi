@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.invuya.R;
 
-public class BankBNI extends AppCompatActivity {
+public class TransferBankActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bank_bni);
+        setContentView(R.layout.activity_transfer_bank);
     }
 }

@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 
 import com.example.invuya.R;
 import com.example.invuya.ResiActivity;
+import com.example.invuya.TransferBank.BankBNI.BankbniActivity;
 
 public class KonfirmasiLele extends AppCompatActivity {
     LinearLayout expandableView;
@@ -47,5 +48,27 @@ public class KonfirmasiLele extends AppCompatActivity {
     }
 
     public void alfamart(View view) {
+        Intent intent = new Intent(KonfirmasiLele.this, ResiActivity.class);
+        startActivity(intent);
+    }
+
+    public void bankmandiri(View view) {
+        Intent intent = new Intent(KonfirmasiLele.this, ResiActivity.class);
+        startActivity(intent);
+    }
+
+    public void bankbca(View view) {
+        Intent intent = new Intent(KonfirmasiLele.this, ResiActivity.class);
+        startActivity(intent);
+    }
+
+    public void bankbri(View view) {
+        Intent intent = new Intent(KonfirmasiLele.this, ResiActivity.class);
+        startActivity(intent);
+    }
+
+    public void bankbni(View view) {
+        Intent intent = new Intent(KonfirmasiLele.this, BankbniActivity.class);
+        startActivity(intent);
     }
 }

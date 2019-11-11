@@ -12,14 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TransferBank.BankBNI"></activity>
+        <activity android:name=".TransferBank.TransferBankActivity"></activity>
+        <activity android:name=".TransferBank.BankBNI.BankbniActivity" />
         <activity android:name=".ResiActivity" />
         <activity android:name=".KonfirmasiPembayaran.KonfirmasiLele">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Pembayaran.PembayaranLele" />
         <activity
@@ -52,7 +48,13 @@
             android:label="@string/kembali"
             android:parentActivityName=".Home.CariProyekActivity"
             android:theme="@style/Theme" />
-        <activity android:name=".IntroActivity"></activity>
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".DaftarProyek.IkanLele"
             android:label="@string/kembali"

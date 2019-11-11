@@ -198,7 +198,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="10dp"
                         android:textColor="@color/hijau"
-                        android:text="23 Hari"
+                        android:text="30 Hari"
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -272,7 +272,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="10dp"
-                        android:text="Rp 2.500.000" />
+                        android:text="Rp 0" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -342,7 +342,8 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:text="MODALI"
+                    android:onClick="investlele"
+                    android:text="INVEST"
                     android:textSize="24dp"
                     android:textColor="@color/putih"
                     android:background="@color/colorPrimary"/>
