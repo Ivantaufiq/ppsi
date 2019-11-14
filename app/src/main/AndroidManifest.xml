@@ -12,12 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TransferBank.TransferBankActivity"></activity>
-        <activity android:name=".TransferBank.BankBNI.BankbniActivity" />
+        <activity android:name=".Home2"></activity>
+        <activity android:name=".Home.PembayaranHome.Pembayaran2" />
+        <activity android:name=".TransferBank.TransferBankActivity" />
+        <activity
+            android:name=".TransferBank.BankBNI.BankbniActivity"
+            android:label="@string/kembali"
+                android:parentActivityName=".KonfirmasiPembayaran.KonfirmasiLele"
+            android:theme="@style/Theme" />
         <activity android:name=".ResiActivity" />
-        <activity android:name=".KonfirmasiPembayaran.KonfirmasiLele">
-        </activity>
-        <activity android:name=".Pembayaran.PembayaranLele" />
+        <activity
+            android:name=".KonfirmasiPembayaran.KonfirmasiLele"
+            android:label="Pembayaran"
+            android:parentActivityName=".Pembayaran.PembayaranLele"
+            android:theme="@style/Theme" />
+        <activity
+            android:name=".Pembayaran.PembayaranLele"
+            android:label="Test"
+            android:parentActivityName=".Home2"
+            android:theme="@style/Theme" />
         <activity
             android:name=".DaftarProyek.IkanMujair"
             android:label="@string/kembali"
@@ -49,11 +62,7 @@
             android:parentActivityName=".Home.CariProyekActivity"
             android:theme="@style/Theme" />
         <activity android:name=".IntroActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".DaftarProyek.IkanLele"
@@ -125,7 +134,13 @@
             android:label="@string/profil"
             android:parentActivityName=".HomeActivity"
             android:theme="@style/Theme" />
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
     </application>
