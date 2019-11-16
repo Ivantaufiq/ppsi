@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.invuya.Home.CariProyekActivity;
+import com.example.invuya.Intent.CariProyek2.DaftarProyek;
 import com.example.invuya.KonfirmasiPembayaran.KonfirmasiLele;
 import com.example.invuya.R;
 
@@ -36,7 +37,7 @@ public class IkanLele extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IkanLele.this, CariProyekActivity.class);
+                Intent intent = new Intent(IkanLele.this, DaftarProyek.class);
                 startActivity(intent);
             }
         });

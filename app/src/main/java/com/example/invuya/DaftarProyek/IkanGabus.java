@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.example.invuya.Home.CariProyekActivity;
 import com.example.invuya.HomeActivity;
+import com.example.invuya.Intent.CariProyek2.DaftarProyek;
 import com.example.invuya.R;
 
 public class IkanGabus extends AppCompatActivity {
@@ -36,7 +37,7 @@ public class IkanGabus extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IkanGabus.this, CariProyekActivity.class);
+                Intent intent = new Intent(IkanGabus.this, DaftarProyek.class);
                 startActivity(intent);
             }
         });
