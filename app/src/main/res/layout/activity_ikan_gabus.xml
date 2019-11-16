@@ -6,6 +6,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".DaftarProyek.IkanGabus">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar">
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:tint="@color/putih"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"/>
+    </androidx.appcompat.widget.Toolbar>
 
     <ImageView
         android:layout_width="match_parent"
@@ -197,7 +216,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginRight="10dp"
                             android:textColor="@color/hijau"
-                            android:text="5 Hari"
+                            android:text="30 Hari"
                             />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -271,7 +290,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_marginRight="10dp"
-                            android:text="Rp 8.500.000" />
+                            android:text="Rp 0" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 

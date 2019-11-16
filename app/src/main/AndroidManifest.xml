@@ -37,41 +37,20 @@
             android:parentActivityName=".Intent.Home2"
             android:theme="@style/Theme" />
         <activity
-            android:name=".DaftarProyek.IkanMujair"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme" />
+            android:name=".DaftarProyek.IkanMujair" />
         <activity
-            android:name=".DaftarProyek.IkanLele2"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme" />
+            android:name=".DaftarProyek.IkanLele2" />
         <activity
-            android:name=".DaftarProyek.IkanGabus"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme" />
+            android:name=".DaftarProyek.IkanGabus" />
         <activity
-            android:name=".DaftarProyek.IkanMas"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme" />
+            android:name=".DaftarProyek.IkanMas" />
         <activity
-            android:name=".DaftarProyek.IkanPatin"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme" />
+            android:name=".DaftarProyek.IkanPatin" />
         <activity
-            android:name=".DaftarProyek.IkanNila"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme" />
+            android:name=".DaftarProyek.IkanNila" />
         <activity android:name=".IntroActivity" />
         <activity
-            android:name=".DaftarProyek.IkanLele"
-            android:label="@string/kembali"
-            android:parentActivityName=".Home.CariProyekActivity"
-            android:theme="@style/Theme" />
+            android:name=".DaftarProyek.IkanLele" />
         <activity
             android:name=".Home.PembayaranActivity"
             android:label="@string/pembayaran"
@@ -83,10 +62,7 @@
             android:parentActivityName=".HomeActivity"
             android:theme="@style/Theme" />
         <activity
-            android:name=".Home.CariProyekActivity"
-            android:label="@string/cariproyek"
-            android:parentActivityName=".HomeActivity"
-            android:theme="@style/Theme" />
+            android:name=".Home.CariProyekActivity" />
         <activity
             android:name=".Profil.InformasiAkun.InfoNoHpActivity" />
         <activity
