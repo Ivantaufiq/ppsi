@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/putih"
-    tools:context=".Profil.DataDiriActivity">
+    android:layout_height="match_parent"
+    tools:context=".Intent.Profil.Profil2">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -22,9 +21,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/datadiri"
+            android:text="Kembali"
             android:textColor="@color/putih"
-            android:textSize="20dp"
+            android:textSize="19dp"
             android:layout_marginLeft="25dp"/>
     </androidx.appcompat.widget.Toolbar>
 
@@ -43,7 +42,7 @@
                 android:layout_width="250dp"
                 android:layout_height="250dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ic_image_blue_24dp"
+                android:src="@drawable/gambarprofil"
                 android:scaleType="centerCrop"/>
 
             <Button
@@ -66,7 +65,8 @@
             <EditText
                 android:id="@+id/inputnamaprofil"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="Ivan Taufiq"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -77,6 +77,7 @@
                 android:id="@+id/nikprofil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="6171"
                 android:layout_marginTop="5dp"/>
 
             <TextView
@@ -87,7 +88,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text="Ivan Taufiq"
                 />
 
             <TextView
@@ -99,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="" />
+                android:text="1111-2222-3333" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -109,7 +110,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text="Perum 2"
                 android:layout_marginTop="5dp"/>
 
             <TextView
@@ -120,17 +121,17 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text="Laki-laki"
                 android:layout_marginTop="5dp"/>
 
             <TextView
                 android:id="@+id/tgllahir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="13dp"
+                android:textSize="15dp"
                 android:layout_marginLeft="4dp"
-                android:text="@string/date"
-                android:layout_marginTop="8dp"
+                android:text="15-10-1999"
+                android:layout_marginTop="10dp"
                 android:drawableRight="@drawable/ic_keyboard_arrow_right_blue_24dp"/>
 
             <Button

@@ -12,13 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home2"></activity>
+        <activity android:name=".Intent.Home.HomeDataDiriFix"></activity>
+        <activity
+            android:name=".Intent.Profil.ProfilActivity2Intent"
+            android:label="@string/kembali" />
+        <activity android:name=".Intent.Profil.Profil2"></activity>
+        <activity android:name=".Intent.Home2" />
         <activity android:name=".Home.PembayaranHome.Pembayaran2" />
         <activity android:name=".TransferBank.TransferBankActivity" />
         <activity
             android:name=".TransferBank.BankBNI.BankbniActivity"
             android:label="@string/kembali"
-                android:parentActivityName=".KonfirmasiPembayaran.KonfirmasiLele"
+            android:parentActivityName=".KonfirmasiPembayaran.KonfirmasiLele"
             android:theme="@style/Theme" />
         <activity android:name=".ResiActivity" />
         <activity
@@ -29,7 +34,7 @@
         <activity
             android:name=".Pembayaran.PembayaranLele"
             android:label="Test"
-            android:parentActivityName=".Home2"
+            android:parentActivityName=".Intent.Home2"
             android:theme="@style/Theme" />
         <activity
             android:name=".DaftarProyek.IkanMujair"
@@ -61,9 +66,7 @@
             android:label="@string/kembali"
             android:parentActivityName=".Home.CariProyekActivity"
             android:theme="@style/Theme" />
-        <activity android:name=".IntroActivity">
-
-        </activity>
+        <activity android:name=".IntroActivity" />
         <activity
             android:name=".DaftarProyek.IkanLele"
             android:label="@string/kembali"
@@ -85,55 +88,24 @@
             android:parentActivityName=".HomeActivity"
             android:theme="@style/Theme" />
         <activity
-            android:name=".Profil.InformasiAkun.InfoNoHpActivity"
-            android:label="@string/gantinohp"
-            android:parentActivityName=".Profil.InformasiAkunActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.InformasiAkun.InfoNoHpActivity" />
         <activity
-            android:name=".Profil.InformasiAkun.InfoKataSandiActivity"
-            android:label="@string/gantikatasandi"
-            android:parentActivityName=".Profil.InformasiAkunActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.InformasiAkun.InfoKataSandiActivity" />
         <activity
-            android:name=".Profil.InformasiAkun.InfoEmailActivity"
-            android:label="@string/gantiemail"
-            android:parentActivityName=".Profil.InformasiAkunActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.InformasiAkun.InfoEmailActivity" />
         <activity
-            android:name=".Profil.HubKamiActivity"
-            android:label="@string/hubkami"
-            android:parentActivityName=".Home.ProfilActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.HubKamiActivity" />
         <activity
-            android:name=".Profil.JadiMitraActivity"
-            android:label="@string/jadimitra"
-            android:parentActivityName=".Home.ProfilActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.JadiMitraActivity" />
         <activity
-            android:name=".Profil.FaqActivity"
-            android:label="@string/faq"
-            android:parentActivityName=".Home.ProfilActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.FaqActivity" />
         <activity
-            android:name=".Profil.SyaratActivity"
-            android:label="@string/syarat"
-            android:parentActivityName=".Home.ProfilActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.SyaratActivity" />
         <activity
-            android:name=".Profil.InformasiAkunActivity"
-            android:label="@string/informasiakun"
-            android:parentActivityName=".Home.ProfilActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.InformasiAkunActivity" />
         <activity
-            android:name=".Profil.DataDiriActivity"
-            android:label="@string/datadiri"
-            android:parentActivityName=".Home.ProfilActivity"
-            android:theme="@style/Theme" />
-        <activity
-            android:name=".Home.ProfilActivity"
-            android:label="@string/profil"
-            android:parentActivityName=".HomeActivity"
-            android:theme="@style/Theme" />
+            android:name=".Profil.DataDiriActivity" />
+        <activity android:name=".Home.ProfilActivity" />
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

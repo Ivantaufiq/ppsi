@@ -1,18 +1,24 @@
 package com.example.invuya.Profil;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.transition.AutoTransition;
 import android.transition.TransitionManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.invuya.Intent.Profil.ProfilActivity2Intent;
 import com.example.invuya.R;
 
 public class SyaratActivity extends AppCompatActivity {
+    Toolbar toolbar;
+    ImageView arrow;
 
     LinearLayout syaratexpandableView1, syaratexpandableView2;
     Button syaratarrowBtn1, syaratarrowBtn2;
@@ -31,6 +37,17 @@ public class SyaratActivity extends AppCompatActivity {
 
         syaratcardView1 = findViewById(R.id.syaratcardView1);
         syaratcardView2 = findViewById(R.id.syaratcardView2);
+
+        toolbar = findViewById(R.id.toolbar);
+        arrow = findViewById(R.id.arrow);
+
+        arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SyaratActivity.this, ProfilActivity2Intent.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void syarat1(View view) {

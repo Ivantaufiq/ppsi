@@ -1,18 +1,25 @@
 package com.example.invuya.Profil;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.transition.AutoTransition;
 import android.transition.TransitionManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.invuya.Home.ProfilActivity;
+import com.example.invuya.Intent.Profil.ProfilActivity2Intent;
 import com.example.invuya.R;
 
 public class FaqActivity extends AppCompatActivity {
+    Toolbar toolbar;
+    ImageView arrow;
     LinearLayout expandableView, expandableView2,expandableView3,expandableView4,
         expandableView5,expandableView6,expandableView7,expandableView8,
             expandableView9,expandableView10;
@@ -59,6 +66,16 @@ public class FaqActivity extends AppCompatActivity {
         cardView8 = findViewById(R.id.cardView8);
         cardView9 = findViewById(R.id.cardView9);
         cardView10 = findViewById(R.id.cardView10);
+        toolbar = findViewById(R.id.toolbar);
+        arrow = findViewById(R.id.arrow);
+
+        arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FaqActivity.this, ProfilActivity2Intent.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void faq1(View view) {

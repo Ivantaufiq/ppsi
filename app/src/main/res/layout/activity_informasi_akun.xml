@@ -5,15 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
     android:background="@color/putih"
     tools:context=".Profil.InformasiAkunActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar">
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:tint="@color/putih"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informasi Akun"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"/>
+    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:layout_marginTop="20dp">
 
         <androidx.cardview.widget.CardView
@@ -42,7 +62,7 @@
                     android:gravity="center_vertical"
                     android:textAlignment="center"
                     android:textColor="@color/putih"
-                    android:text="ivantaufiq@gmail.com"/>
+                    android:text="invuya@gmail.com"/>
 
                 <ImageView
                     android:layout_width="40dp"
@@ -85,7 +105,7 @@
                     android:textAlignment="center"
                     android:inputType="textPassword"
                     android:textColor="@color/putih"
-                    android:text="************"/>
+                    android:text="********"/>
 
                 <ImageView
                     android:layout_width="40dp"
@@ -127,7 +147,7 @@
                     android:gravity="center_vertical"
                     android:textAlignment="center"
                     android:textColor="@color/putih"
-                    android:text="0895701992393"/>
+                    android:text="08123456789"/>
 
                 <ImageView
                     android:layout_width="40dp"

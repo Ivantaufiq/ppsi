@@ -6,8 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.invuya.Home2;
-import com.example.invuya.Pembayaran.PembayaranLele;
+import com.example.invuya.Intent.Home2;
 import com.example.invuya.R;
 
 public class BankbniActivity extends AppCompatActivity {

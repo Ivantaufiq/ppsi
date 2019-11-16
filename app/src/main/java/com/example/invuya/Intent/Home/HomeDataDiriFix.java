@@ -1,4 +1,4 @@
-package com.example.invuya;
+package com.example.invuya.Intent.Home;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,36 +8,36 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.invuya.Home.CariProyekActivity;
-import com.example.invuya.Home.ProfilActivity;
 import com.example.invuya.Home.RiwayatActivity;
-import com.example.invuya.KonfirmasiPembayaran.KonfirmasiLele;
+import com.example.invuya.Intent.Profil.ProfilActivity2Intent;
 import com.example.invuya.Pembayaran.PembayaranLele;
+import com.example.invuya.R;
 
-public class Home2 extends AppCompatActivity {
+public class HomeDataDiriFix extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home2);
+        setContentView(R.layout.activity_home_data_diri_fix);
     }
 
     public void pindahprofil(View view) {
-        Intent intent = new Intent(Home2.this, ProfilActivity.class);
+        Intent intent = new Intent(HomeDataDiriFix.this, ProfilActivity2Intent.class);
         startActivity(intent);
     }
 
     public void pindahpembayaran2(View view) {
-        Intent intent = new Intent(Home2.this, PembayaranLele.class);
+        Intent intent = new Intent(HomeDataDiriFix.this, PembayaranLele.class);
         startActivity(intent);
     }
 
     public void pindahriwayat(View view) {
-        Intent intent = new Intent(Home2.this, RiwayatActivity.class);
+        Intent intent = new Intent(HomeDataDiriFix.this, RiwayatActivity.class);
         startActivity(intent);
     }
 
     public void pindahproyek(View view) {
-        Intent intent = new Intent(Home2.this, CariProyekActivity.class);
+        Intent intent = new Intent(HomeDataDiriFix.this, CariProyekActivity.class);
         startActivity(intent);
     }
 

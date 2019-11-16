@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     android:orientation="vertical"
-    tools:context=".Intent.Home2">
+    android:background="@color/colorPrimary"
+    tools:context=".Intent.Home.HomeDataDiriFix">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

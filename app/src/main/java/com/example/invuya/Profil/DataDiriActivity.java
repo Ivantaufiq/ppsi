@@ -3,12 +3,11 @@ package com.example.invuya.Profil;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
-import android.app.AlertDialog;
 import android.app.DatePickerDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
@@ -24,15 +23,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.invuya.Database.AccountDB;
-import com.example.invuya.Entitas.Account;
-import com.example.invuya.MainActivity;
+import com.example.invuya.Home.ProfilActivity;
+import com.example.invuya.Intent.Profil.Profil2;
 import com.example.invuya.R;
-import com.example.invuya.RegisterActivity;
 
 import java.util.Calendar;
 
 public class DataDiriActivity extends AppCompatActivity {
+    Toolbar toolbar;
+    ImageView arrow;
     private static final String TAG = "DataDiriActivity";
     private DatePickerDialog.OnDateSetListener mDateSetListener;
     ImageView imageview;
@@ -55,11 +54,22 @@ public class DataDiriActivity extends AppCompatActivity {
         btnsimpan = findViewById(R.id.btnsimpan);
         inputnama = findViewById(R.id.inputnamaprofil);
         nikprofil = findViewById(R.id.nikprofil);
+        toolbar = findViewById(R.id.toolbar);
+        arrow = findViewById(R.id.arrow);
+
+        arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DataDiriActivity.this, ProfilActivity.class);
+                startActivity(intent);
+            }
+        });
         
         btnsimpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                simpan_onclick(v);
+                Intent intent = new Intent(DataDiriActivity.this,Profil2.class);
+                startActivity(intent);
             }
         });
 
@@ -145,4 +155,5 @@ public class DataDiriActivity extends AppCompatActivity {
             imageview.setImageURI(data.getData());
         }
     }
+
 }
