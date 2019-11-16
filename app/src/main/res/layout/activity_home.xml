@@ -310,7 +310,5 @@
                     android:paddingHorizontal="20dp"/>
             </LinearLayout>
         </LinearLayout>
-
     </ScrollView>
-
 </LinearLayout>
