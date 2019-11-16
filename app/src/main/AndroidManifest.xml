@@ -17,24 +17,17 @@
             android:name=".Intent.Profil.ProfilActivity2Intent"
             android:label="@string/kembali" />
         <activity android:name=".Intent.Profil.Profil2"></activity>
-        <activity android:name=".Intent.Home2" />
+        <activity android:name=".Intent.Home.Home2" />
         <activity android:name=".Home.PembayaranHome.Pembayaran2" />
-        <activity android:name=".TransferBank.TransferBankActivity" />
         <activity
-            android:name=".TransferBank.BankBNI.BankbniActivity"
-            android:label="@string/kembali"
-            android:parentActivityName=".KonfirmasiPembayaran.KonfirmasiLele"
-            android:theme="@style/Theme" />
+            android:name=".TransferBank.BankBNI.BankbniActivity" />
         <activity android:name=".ResiActivity" />
         <activity
-            android:name=".KonfirmasiPembayaran.KonfirmasiLele"
-            android:label="Pembayaran"
-            android:parentActivityName=".Pembayaran.PembayaranLele"
-            android:theme="@style/Theme" />
+            android:name=".KonfirmasiPembayaran.KonfirmasiLele" />
         <activity
             android:name=".Pembayaran.PembayaranLele"
             android:label="Test"
-            android:parentActivityName=".Intent.Home2"
+            android:parentActivityName=".Intent.Home.Home2"
             android:theme="@style/Theme" />
         <activity
             android:name=".DaftarProyek.IkanMujair" />

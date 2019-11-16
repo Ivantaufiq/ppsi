@@ -1,4 +1,4 @@
-package com.example.invuya.Intent;
+package com.example.invuya.Intent.Home;
 
 import androidx.appcompat.app.AppCompatActivity;
 

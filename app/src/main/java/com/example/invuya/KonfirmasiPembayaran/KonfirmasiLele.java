@@ -1,6 +1,7 @@
 package com.example.invuya.KonfirmasiPembayaran;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
@@ -9,8 +10,10 @@ import android.transition.AutoTransition;
 import android.transition.TransitionManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.invuya.DaftarProyek.IkanLele;
 import com.example.invuya.R;
 import com.example.invuya.ResiActivity;
 import com.example.invuya.TransferBank.BankBNI.BankbniActivity;
@@ -19,6 +22,8 @@ public class KonfirmasiLele extends AppCompatActivity {
     LinearLayout expandableView;
     Button arrowBtn;
     CardView cardView;
+    Toolbar toolbar;
+    ImageView arrow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +32,16 @@ public class KonfirmasiLele extends AppCompatActivity {
         expandableView = findViewById(R.id.expandableView);
         arrowBtn = findViewById(R.id.arrowBtn);
         cardView = findViewById(R.id.cardView);
+        toolbar = findViewById(R.id.toolbar);
+        arrow = findViewById(R.id.arrow);
+
+        arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KonfirmasiLele.this, IkanLele.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
