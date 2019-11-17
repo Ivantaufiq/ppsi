@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -72,4 +73,5 @@ public class CariProyekActivity extends AppCompatActivity {
         Intent i = new Intent(CariProyekActivity.this, IkanMujair.class);
         startActivity(i);
     }
+
 }

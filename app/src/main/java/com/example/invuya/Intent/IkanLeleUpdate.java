@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -29,5 +30,10 @@ public class IkanLeleUpdate extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void prospektuslele(View view) {
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/open?id=1BryH3ISZmn5ayasDHgwi5LTTFIx1QPaC"));
+        startActivity(link1);
     }
 }

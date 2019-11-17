@@ -5,6 +5,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -62,5 +63,10 @@ public class IkanLele extends AppCompatActivity {
     public void investlele(View view) {
         Intent intent = new Intent(IkanLele.this, KonfirmasiLele.class);
         startActivity(intent);
+    }
+
+    public void prospektus1(View view) {
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/open?id=1BryH3ISZmn5ayasDHgwi5LTTFIx1QPaC"));
+        startActivity(link1);
     }
 }

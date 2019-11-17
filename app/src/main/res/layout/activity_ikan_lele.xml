@@ -126,7 +126,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:layout_gravity="center_vertical"
-                        android:text="19%"
+                        android:text="22,6%"
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -217,7 +217,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="10dp"
                         android:textColor="@color/hijau"
-                        android:text="30 Hari"
+                        android:text="60 Hari"
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -254,7 +254,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="10dp"
-                        android:text="Rp 15.000.000"
+                        android:text="Rp 28.360.000"
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -302,6 +302,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@color/colorPrimary"
                 android:text="UNDUH PROSPEKTUS"
+                android:onClick="prospektus1"
                 android:layout_gravity="center"
                 android:textColor="@color/putih"
                 android:drawableTint="@color/putih"
