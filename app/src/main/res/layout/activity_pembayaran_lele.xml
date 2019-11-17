@@ -26,7 +26,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:background="@drawable/budidayalele"></LinearLayout>
+                    android:background="@drawable/budidayapatin">
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -40,23 +41,40 @@
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
                         android:layout_marginTop="3dp"
-                        android:text="@string/lele"/>
+                        android:text="@string/patin"/>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary" />
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="40dp"
-                        android:onClick="konfirmasilele"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginLeft="2dp"
-                        android:layout_gravity="center_horizontal"
-                        android:textAlignment="center"
-                        android:background="@drawable/round2"
-                        android:textColor="@color/putih"
-                        android:text="Konfirmasi Pembayaran"
-                        android:textAllCaps="false" />
+                        android:orientation="horizontal">
+                        <Button
+                            android:layout_width="175dp"
+                            android:layout_height="40dp"
+                            android:onClick="konfirmasilele"
+                            android:layout_marginLeft="10dp"
+                            android:textAlignment="center"
+                            android:background="@drawable/round2"
+                            android:textColor="@color/putih"
+                            android:text="Konfirmasi Pembayaran"
+                            android:textAllCaps="false" />
+
+                        <Button
+                            android:layout_width="175dp"
+                            android:layout_height="40dp"
+                            android:textAllCaps="false"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textAlignment="center"
+                            android:onClick="batalkan"
+                            android:background="@drawable/round"
+                            android:textColor="@color/colorPrimary"
+                            android:text="Batalkan"/>
+
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>

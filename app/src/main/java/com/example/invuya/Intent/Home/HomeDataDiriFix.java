@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.invuya.Home.CariProyekActivity;
+import com.example.invuya.Home.PembayaranActivity;
 import com.example.invuya.Home.RiwayatActivity;
 import com.example.invuya.Intent.Profil.ProfilActivity2Intent;
 import com.example.invuya.Pembayaran.PembayaranLele;
@@ -27,7 +28,7 @@ public class HomeDataDiriFix extends AppCompatActivity {
     }
 
     public void pindahpembayaran2(View view) {
-        Intent intent = new Intent(HomeDataDiriFix.this, PembayaranLele.class);
+        Intent intent = new Intent(HomeDataDiriFix.this, PembayaranActivity.class);
         startActivity(intent);
     }
 

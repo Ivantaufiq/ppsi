@@ -8,8 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.invuya.DaftarProyek.IkanLele;
-import com.example.invuya.Intent.Home.HomeDataDiriFix;
+import com.example.invuya.Intent.CariProyek2.DaftarProyekLeleTerisi;
 import com.example.invuya.R;
 
 public class IkanLeleUpdate extends AppCompatActivity {
@@ -26,7 +25,7 @@ public class IkanLeleUpdate extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IkanLeleUpdate.this, HomeDataDiriFix.class);
+                Intent intent = new Intent(IkanLeleUpdate.this, DaftarProyekLeleTerisi.class);
                 startActivity(intent);
             }
         });

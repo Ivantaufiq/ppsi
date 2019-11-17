@@ -57,16 +57,6 @@ public class KonfirmasiLele extends AppCompatActivity {
         }
     }
 
-    public void indomaret(View view) {
-        Intent intent = new Intent(KonfirmasiLele.this, ResiActivity.class);
-        startActivity(intent);
-    }
-
-    public void alfamart(View view) {
-        Intent intent = new Intent(KonfirmasiLele.this, ResiActivity.class);
-        startActivity(intent);
-    }
-
     public void bankmandiri(View view) {
         Intent intent = new Intent(KonfirmasiLele.this, ResiActivity.class);
         startActivity(intent);

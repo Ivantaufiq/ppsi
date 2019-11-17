@@ -26,6 +26,9 @@
             android:layout_marginLeft="25dp"/>
     </androidx.appcompat.widget.Toolbar>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -114,6 +117,28 @@
             android:textSize="20dp"/>
     </LinearLayout>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Rekening"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Rekening"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -166,5 +191,6 @@
         android:layout_gravity="center_horizontal"
         android:scaleType="fitCenter"/>
     </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

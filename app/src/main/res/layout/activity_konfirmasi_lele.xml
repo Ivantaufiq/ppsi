@@ -194,30 +194,6 @@
                                 android:onClick="bankmandiri"
                                 android:src="@drawable/bankmandiri"/>
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:text="Bayar di Counter"
-                                android:layout_marginTop="30dp"
-                                android:gravity="center_vertical"
-                                android:layout_marginLeft="10dp"
-                                android:textSize="15dp" />
-                            <ImageView
-                                android:layout_width="120dp"
-                                android:layout_marginTop="2dp"
-                                android:layout_height="70dp"
-                                android:layout_marginLeft="7dp"
-                                android:onClick="indomaret"
-                                android:src="@drawable/indomaret" />
-
-                            <ImageView
-                                android:onClick="alfamart"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="5dp"
-                                android:layout_width="120dp"
-                                android:layout_height="70dp"
-                                android:src="@drawable/alfamart"/>
-
                         </LinearLayout>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

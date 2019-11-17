@@ -22,4 +22,7 @@ public class PembayaranLele extends AppCompatActivity {
         Intent intent = new Intent(PembayaranLele.this, KonfirmasiLele.class);
         startActivity(intent);
     }
+
+    public void batalkan(View view) {
+    }
 }
