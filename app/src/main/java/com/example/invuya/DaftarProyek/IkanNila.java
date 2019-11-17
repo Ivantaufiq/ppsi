@@ -56,4 +56,7 @@ public class IkanNila extends AppCompatActivity {
             }
         });
     }
+
+    public void investnila(View view) {
+    }
 }

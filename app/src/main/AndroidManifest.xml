@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Intent.CariProyek2.DaftarProyekLeleTerisi"></activity>
+        <activity android:name=".TransferBank.BankBNI.BankbcaActivity"></activity>
+        <activity android:name=".KonfirmasiPembayaran.KonfirmasiNila" />
+        <activity android:name=".Intent.CariProyek2.DaftarProyekLeleTerisi" />
         <activity android:name=".Intent.CariProyek2.DaftarProyek" />
         <activity android:name=".Intent.IkanLeleUpdate" />
         <activity android:name=".Intent.Home.HomeDataDiriFix" />
