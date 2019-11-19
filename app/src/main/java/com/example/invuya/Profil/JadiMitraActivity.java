@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -30,5 +31,12 @@ public class JadiMitraActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+    }
+
+    public void jadipetambak(View view) {
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://forms.gle/Khf7bf5MPuzJdBbm7"));
+        startActivity(link1);
     }
 }

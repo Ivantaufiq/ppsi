@@ -1,40 +1,43 @@
 package com.example.invuya.KonfirmasiPembayaran;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
-import android.transition.AutoTransition;
-import android.transition.TransitionManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.example.invuya.Intent.IkanNilaKembali;
+import com.example.invuya.Intent.IkanNilaUpdate;
 import com.example.invuya.R;
-import com.example.invuya.ResiActivity;
-import com.example.invuya.TransferBank.BankBNI.BankbcaActivity;
-import com.example.invuya.TransferBank.BankBNI.BankbniActivity;
 
 public class KonfirmasiNila extends AppCompatActivity {
-    LinearLayout expandableView;
-    Button arrowBtn;
-    CardView cardView;
+    Button kirim,gantifoto;
     Toolbar toolbar;
-    ImageView arrow;
+    ImageView arrow, imageview;
+    private static final int IMAGE_PICK_CODE = 1000;
+    private static final int PERMISSION_CODE = 1001;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_konfirmasi_nila);
-        expandableView = findViewById(R.id.expandableView);
-        arrowBtn = findViewById(R.id.arrowBtn);
-        cardView = findViewById(R.id.cardView);
+
         toolbar = findViewById(R.id.toolbar);
         arrow = findViewById(R.id.arrow);
+        kirim = findViewById(R.id.kirim);
+        imageview = findViewById(R.id.image_view);
+        gantifoto = findViewById(R.id.gantifoto);
 
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,36 +46,68 @@ public class KonfirmasiNila extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        gantifoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
+                    if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
+                            == PackageManager.PERMISSION_DENIED){
+                        String[] permission = {Manifest.permission.READ_EXTERNAL_STORAGE};
+                        //show popup for runtime permission
+                        requestPermissions(permission, PERMISSION_CODE);
+                    }
+                    else {
+                        //permission already granted
+                        pickImageFromGallery();
+
+                    }
+                }
+                else{
+                    pickImageFromGallery();
+
+                }
+            }
+        });
+
+        kirim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KonfirmasiNila.this, IkanNilaUpdate.class);
+                startActivity(intent);
+
+                Toast.makeText(getApplicationContext(),"Berhasil Kirim",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
-    public void konfir1(View view) {
-        if (expandableView.getVisibility()==View.GONE){
-            TransitionManager.beginDelayedTransition(cardView, new AutoTransition());
-            expandableView.setVisibility(View.VISIBLE);
-            arrowBtn.setBackgroundResource(R.drawable.ic_keyboard_arrow_down_blue_24dp);
-        } else {
-            TransitionManager.beginDelayedTransition(cardView, new AutoTransition());
-            expandableView.setVisibility(View.GONE);
-            arrowBtn.setBackgroundResource(R.drawable.ic_keyboard_arrow_right_blue_24dp);
+    private void pickImageFromGallery() {
+        Intent intent = new Intent(Intent.ACTION_PICK);
+        intent.setType("image/*");
+        startActivityForResult(intent, IMAGE_PICK_CODE);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode){
+            case PERMISSION_CODE:{
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                    pickImageFromGallery();
+                }
+                else {
+                    Toast.makeText(this, "Izin Diperlukan...!", Toast.LENGTH_SHORT).show();
+                }
+            }
         }
     }
-    public void bankmandiri(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, ResiActivity.class);
-        startActivity(intent);
+
+    @SuppressLint("MissingSuperCall")
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        if (resultCode == RESULT_OK && requestCode == IMAGE_PICK_CODE){
+            //set image to image view
+            imageview.setImageURI(data.getData());
+        }
     }
 
-    public void bankbca(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, BankbcaActivity.class);
-        startActivity(intent);
-    }
-
-    public void bankbri(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, ResiActivity.class);
-        startActivity(intent);
-    }
-
-    public void bankbni(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, BankbniActivity.class);
-        startActivity(intent);
-    }
 }

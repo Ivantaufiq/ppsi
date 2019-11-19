@@ -27,4 +27,32 @@
             android:layout_marginLeft="25dp"/>
     </androidx.appcompat.widget.Toolbar>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:text="@string/jadipetambak"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round2"
+            android:text="Jadilah Petambak"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:onClick="jadipetambak"
+            android:textColor="@color/putih"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
 </LinearLayout>

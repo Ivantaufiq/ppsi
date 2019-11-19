@@ -19,7 +19,6 @@
         <activity android:name=".KonfirmasiPembayaran.KonfirmasiNila2" />
         <activity android:name=".Intent.IkanNilaKembali" />
         <activity android:name=".Intent.Home.HomePembayaran" />
-        <activity android:name=".TransferBank.BankBNI.BankbcaActivity" />
         <activity android:name=".KonfirmasiPembayaran.KonfirmasiNila" />
         <activity android:name=".Intent.CariProyek2.DaftarProyekLeleTerisi" />
         <activity android:name=".Intent.CariProyek2.DaftarProyek" />
@@ -31,8 +30,6 @@
         <activity android:name=".Intent.Profil.Profil2" />
         <activity android:name=".Intent.Home.Home2" />
         <activity android:name=".Home.PembayaranHome.Pembayaran2" />
-        <activity android:name=".TransferBank.BankBNI.BankbniActivity" />
-        <activity android:name=".ResiActivity" />
         <activity android:name=".KonfirmasiPembayaran.KonfirmasiLele" />
         <activity android:name=".Pembayaran.PembayaranNila" />
         <activity android:name=".DaftarProyek.IkanMujair" />

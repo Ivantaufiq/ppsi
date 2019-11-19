@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="invuya@gmail.com"
+                android:text="taufiq.ivan15@gmail.com"
                 android:textAlignment="center"
                 android:textColor="@color/putih" />
 

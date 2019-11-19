@@ -11,8 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.invuya.Intent.Home.HomePembayaran;
+import com.example.invuya.KonfirmasiPembayaran.KonfirmasiNila;
 import com.example.invuya.R;
-import com.example.invuya.TransferBank.BankBNI.BankbcaActivity;
 
 public class IkanNilaKembali extends AppCompatActivity {
     private int naik2 = 0;
@@ -55,7 +55,7 @@ public class IkanNilaKembali extends AppCompatActivity {
         });
     }
     public void investnila(View view) {
-        Intent intent = new Intent(IkanNilaKembali.this, BankbcaActivity.class);
+        Intent intent = new Intent(IkanNilaKembali.this, KonfirmasiNila.class);
         startActivity(intent);
     }
 }

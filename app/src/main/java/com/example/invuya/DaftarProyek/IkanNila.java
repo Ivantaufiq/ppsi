@@ -10,11 +10,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.invuya.Home.CariProyekActivity;
 import com.example.invuya.Intent.CariProyek2.DaftarProyek;
 import com.example.invuya.KonfirmasiPembayaran.KonfirmasiNila;
 import com.example.invuya.R;
-import com.example.invuya.TransferBank.BankBNI.BankbcaActivity;
 
 public class IkanNila extends AppCompatActivity {
     private int naik2 = 0;

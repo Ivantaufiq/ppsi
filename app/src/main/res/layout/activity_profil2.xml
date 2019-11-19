@@ -77,8 +77,19 @@
                 android:id="@+id/nikprofil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="6171"
+                android:text="61710123456789"
                 android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nohp"
+                android:layout_marginTop="15dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="0895701992393" />
 
             <TextView
                 android:layout_width="wrap_content"

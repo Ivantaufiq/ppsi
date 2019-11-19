@@ -59,7 +59,7 @@
                 android:gravity="center_vertical"
                 android:textAlignment="center"
                 android:textColor="@color/putih"
-                android:text="08123456789"/>
+                android:text="0895701992393"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

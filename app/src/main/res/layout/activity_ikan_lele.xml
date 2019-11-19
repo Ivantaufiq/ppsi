@@ -131,44 +131,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_marginTop="5dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp">
-                    <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_gravity="center_vertical"
-                        android:src="@drawable/caution"
-                        android:tint="@color/colorPrimary" />
-
-                    <TextView
-                        android:layout_width="150dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:text="Resiko"
-                        android:layout_marginLeft="7dp"
-                        android:textSize="15dp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginRight="10dp"
-                        android:textColor="@color/orange"
-                        android:text="Sedang"
-                        />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
             <View
                 android:layout_width="match_parent"
                 android:layout_marginLeft="2dp"
@@ -182,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginLeft="10dp"
-                android:text="Penggalangan Modal"/>
+                android:text="Penggalangan Dana"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -217,7 +179,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="10dp"
                         android:textColor="@color/hijau"
-                        android:text="60 Hari"
+                        android:text="39 Hari"
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -254,7 +216,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="10dp"
-                        android:text="Rp 28.360.000"
+                        android:text="Rp 28.840.000"
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -299,7 +261,7 @@
                 android:layout_width="190dp"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:background="@color/colorPrimary"
                 android:text="UNDUH PROSPEKTUS"
                 android:onClick="prospektus1"
@@ -311,7 +273,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="20dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"

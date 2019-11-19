@@ -66,7 +66,7 @@ public class IkanLele extends AppCompatActivity {
     }
 
     public void prospektus1(View view) {
-        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/open?id=1BryH3ISZmn5ayasDHgwi5LTTFIx1QPaC"));
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/open?id=1MRnF0M34Zv5y-0rTko0s7z03VlsW8wZM"));
         startActivity(link1);
     }
 }

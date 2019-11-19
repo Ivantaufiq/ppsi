@@ -131,44 +131,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:layout_marginTop="5dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="5dp">
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_gravity="center_vertical"
-                            android:src="@drawable/caution"
-                            android:tint="@color/colorPrimary" />
-
-                        <TextView
-                            android:layout_width="150dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:text="Resiko"
-                            android:layout_marginLeft="7dp"
-                            android:textSize="15dp" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_marginRight="10dp"
-                            android:textColor="@color/hijau"
-                            android:text="Rendah"
-                            />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
                 <View
                     android:layout_width="match_parent"
                     android:layout_marginLeft="2dp"
@@ -299,7 +261,7 @@
                     android:layout_width="190dp"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@color/colorPrimary"
                     android:text="UNDUH PROSPEKTUS"
                     android:layout_gravity="center"
@@ -310,7 +272,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="20dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"

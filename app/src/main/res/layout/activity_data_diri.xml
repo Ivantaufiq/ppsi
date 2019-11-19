@@ -66,7 +66,8 @@
             <EditText
                 android:id="@+id/inputnamaprofil"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="Ivan Taufiqurrahman"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,6 +80,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nohp"
+                android:layout_marginTop="15dp"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
