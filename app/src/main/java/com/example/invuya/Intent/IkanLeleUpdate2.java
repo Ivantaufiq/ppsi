@@ -36,4 +36,6 @@ public class IkanLeleUpdate2 extends AppCompatActivity {
         Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/open?id=1BryH3ISZmn5ayasDHgwi5LTTFIx1QPaC"));
         startActivity(link1);
     }
+
+
 }
