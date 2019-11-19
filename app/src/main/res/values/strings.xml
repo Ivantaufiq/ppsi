@@ -5,14 +5,18 @@
 
     <string name="resitext">Isi ulang dana kamu telah selesai diproses dengan menggunakan Bank Transfer-Virtual
     Account BNI</string>
+    <string name="resitextbca">Isi ulang dana kamu telah selesai diproses dengan menggunakan Bank Transfer-Virtual
+    Account BCA</string>
     <string name="resitext2">Isi ulang kamu dicatat dengan</string>
     <string name="resitext3">Transfer dana kamu sebelum 2x24 Jam</string>
     <string name="resitext4">Nomor Pembayaran bank transfer - virtual account</string>
     <string name="noresi">9888-0000-0432-0278</string>
     <string name="noresi2">8899-0000-0223-0489</string>
+    <string name="noresi3">8899-0000-0572-0112</string>
 
     <string name="noisiulang">Nomor Isi Ulang TF0000000000124</string>
     <string name="noisiulang2">Nomor Isi Ulang TF0000000000125</string>
+    <string name="noisiulang3">Nomor Isi Ulang TF0000000001143</string>
 
     <string name="error">Error</string>
     <string name="ok">Ok</string>

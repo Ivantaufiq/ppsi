@@ -5,7 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Pembayaran.PembayaranLele">
+    tools:context=".Pembayaran.PembayaranNila">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar">
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:tint="@color/putih"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembayaran"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"/>
+    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:clipToPadding="false"
@@ -26,7 +46,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:background="@drawable/budidayapatin">
+                    android:background="@drawable/budidayanila">
                 </LinearLayout>
 
                 <LinearLayout
@@ -41,7 +61,8 @@
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
                         android:layout_marginTop="3dp"
-                        android:text="@string/patin"/>
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/nila"/>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -54,9 +75,10 @@
                         <Button
                             android:layout_width="175dp"
                             android:layout_height="40dp"
-                            android:onClick="konfirmasilele"
+                            android:onClick="konfirmasinila"
                             android:layout_marginLeft="10dp"
                             android:textAlignment="center"
+                            android:layout_marginBottom="2dp"
                             android:background="@drawable/round2"
                             android:textColor="@color/putih"
                             android:text="Konfirmasi Pembayaran"
@@ -66,10 +88,11 @@
                             android:layout_width="175dp"
                             android:layout_height="40dp"
                             android:textAllCaps="false"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginRight="5dp"
                             android:textAlignment="center"
                             android:onClick="batalkan"
+                            android:layout_marginBottom="2dp"
                             android:background="@drawable/round"
                             android:textColor="@color/colorPrimary"
                             android:text="Batalkan"/>

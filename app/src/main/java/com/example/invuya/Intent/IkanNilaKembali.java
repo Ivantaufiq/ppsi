@@ -1,4 +1,4 @@
-package com.example.invuya.DaftarProyek;
+package com.example.invuya.Intent;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -10,24 +10,20 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.invuya.Home.CariProyekActivity;
-import com.example.invuya.Intent.CariProyek2.DaftarProyek;
-import com.example.invuya.KonfirmasiPembayaran.KonfirmasiNila;
+import com.example.invuya.Intent.Home.HomePembayaran;
 import com.example.invuya.R;
 import com.example.invuya.TransferBank.BankBNI.BankbcaActivity;
 
-public class IkanNila extends AppCompatActivity {
+public class IkanNilaKembali extends AppCompatActivity {
     private int naik2 = 0;
     Button countup2, countdown2;
     TextView hasil2;
     Toolbar toolbar;
     ImageView arrow;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ikan_nila);
-
+        setContentView(R.layout.activity_daftar_proyek_nila_kembali);
         countup2 = (Button) findViewById(R.id.countup2);
         countdown2 = (Button) findViewById(R.id.countdown2);
         hasil2 = (TextView) findViewById(R.id.hasil2);
@@ -37,7 +33,7 @@ public class IkanNila extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IkanNila.this, DaftarProyek.class);
+                Intent intent = new Intent(IkanNilaKembali.this, HomePembayaran.class);
                 startActivity(intent);
             }
         });
@@ -58,9 +54,8 @@ public class IkanNila extends AppCompatActivity {
             }
         });
     }
-
     public void investnila(View view) {
-        Intent intent = new Intent(IkanNila.this, KonfirmasiNila.class);
+        Intent intent = new Intent(IkanNilaKembali.this, BankbcaActivity.class);
         startActivity(intent);
     }
 }

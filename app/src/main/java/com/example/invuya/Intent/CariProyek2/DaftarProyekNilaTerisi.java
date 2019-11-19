@@ -9,69 +9,70 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.invuya.DaftarProyek.IkanGabus;
-import com.example.invuya.DaftarProyek.IkanLele;
 import com.example.invuya.DaftarProyek.IkanLele2;
 import com.example.invuya.DaftarProyek.IkanMas;
 import com.example.invuya.DaftarProyek.IkanMujair;
 import com.example.invuya.DaftarProyek.IkanNila;
 import com.example.invuya.DaftarProyek.IkanPatin;
-import com.example.invuya.Intent.Home.Home2;
 import com.example.invuya.Intent.Home.HomeDataDiriFix;
+import com.example.invuya.Intent.Home.HomeProyekUpdate;
 import com.example.invuya.Intent.IkanLeleUpdate;
+import com.example.invuya.Intent.IkanLeleUpdate2;
+import com.example.invuya.Intent.IkanNilaUpdate;
 import com.example.invuya.R;
 
-public class DaftarProyekLeleTerisi extends AppCompatActivity {
+public class DaftarProyekNilaTerisi extends AppCompatActivity {
     Toolbar toolbar;
     ImageView arrow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daftar_proyek_lele_terisi);
+        setContentView(R.layout.activity_daftar_proyek_nila_terisi);
         toolbar = findViewById(R.id.toolbar);
         arrow = findViewById(R.id.arrow);
 
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DaftarProyekLeleTerisi.this, Home2.class);
+                Intent intent = new Intent(DaftarProyekNilaTerisi.this, HomeProyekUpdate.class);
                 startActivity(intent);
             }
         });
     }
 
     public void pindahlele(View view) {
-        Intent i = new Intent(DaftarProyekLeleTerisi.this, IkanLeleUpdate.class);
+        Intent i = new Intent(DaftarProyekNilaTerisi.this, IkanLeleUpdate2.class);
         startActivity(i);
     }
 
     public void pindahlele2(View view) {
-        Intent i = new Intent(DaftarProyekLeleTerisi.this, IkanLele2.class);
+        Intent i = new Intent(DaftarProyekNilaTerisi.this, IkanLele2.class);
         startActivity(i);
     }
 
     public void pindahnila(View view) {
-        Intent i = new Intent(DaftarProyekLeleTerisi.this, IkanNila.class);
+        Intent i = new Intent(DaftarProyekNilaTerisi.this, IkanNilaUpdate.class);
         startActivity(i);
     }
 
     public void pindahpatin(View view) {
-        Intent i = new Intent(DaftarProyekLeleTerisi.this, IkanPatin.class);
+        Intent i = new Intent(DaftarProyekNilaTerisi.this, IkanPatin.class);
         startActivity(i);
     }
 
     public void pindahmas(View view) {
-        Intent i = new Intent(DaftarProyekLeleTerisi.this, IkanMas.class);
+        Intent i = new Intent(DaftarProyekNilaTerisi.this, IkanMas.class);
         startActivity(i);
     }
 
     public void pindahgabus(View view) {
-        Intent i = new Intent(DaftarProyekLeleTerisi.this, IkanGabus.class);
+        Intent i = new Intent(DaftarProyekNilaTerisi.this, IkanGabus.class);
         startActivity(i);
     }
 
     public void pindahmujair(View view) {
-        Intent i = new Intent(DaftarProyekLeleTerisi.this, IkanMujair.class);
+        Intent i = new Intent(DaftarProyekNilaTerisi.this, IkanMujair.class);
         startActivity(i);
     }
 }

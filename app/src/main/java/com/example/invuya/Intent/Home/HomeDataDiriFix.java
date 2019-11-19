@@ -11,7 +11,6 @@ import com.example.invuya.Home.CariProyekActivity;
 import com.example.invuya.Home.PembayaranActivity;
 import com.example.invuya.Home.RiwayatActivity;
 import com.example.invuya.Intent.Profil.ProfilActivity2Intent;
-import com.example.invuya.Pembayaran.PembayaranLele;
 import com.example.invuya.R;
 
 public class HomeDataDiriFix extends AppCompatActivity {

@@ -17,7 +17,9 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.invuya.Intent.IkanLeleUpdate;
+import com.example.invuya.Intent.IkanNilaUpdate;
 import com.example.invuya.KonfirmasiPembayaran.KonfirmasiLele;
+import com.example.invuya.KonfirmasiPembayaran.KonfirmasiNila;
 import com.example.invuya.R;
 
 public class BankbcaActivity extends AppCompatActivity {
@@ -60,21 +62,21 @@ public class BankbcaActivity extends AppCompatActivity {
             }
         });
 
-        kirim.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(BankbcaActivity.this, IkanLeleUpdate.class);
-                startActivity(intent);
-
-                Toast.makeText(getApplicationContext(),"Berhasil Kirim",Toast.LENGTH_SHORT).show();
-            }
-        });
-
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BankbcaActivity.this, KonfirmasiLele.class);
+                Intent intent = new Intent(BankbcaActivity.this, KonfirmasiNila.class);
                 startActivity(intent);
+            }
+        });
+
+        kirim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BankbcaActivity.this, IkanNilaUpdate.class);
+                startActivity(intent);
+
+                Toast.makeText(getApplicationContext(),"Berhasil Kirim",Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -17,9 +17,8 @@ import com.example.invuya.Intent.IkanNilaKembali;
 import com.example.invuya.R;
 import com.example.invuya.ResiActivity;
 import com.example.invuya.TransferBank.BankBNI.BankbcaActivity;
-import com.example.invuya.TransferBank.BankBNI.BankbniActivity;
 
-public class KonfirmasiNila extends AppCompatActivity {
+public class KonfirmasiNila2 extends AppCompatActivity {
     LinearLayout expandableView;
     Button arrowBtn;
     CardView cardView;
@@ -29,7 +28,7 @@ public class KonfirmasiNila extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_konfirmasi_nila);
+        setContentView(R.layout.activity_konfirmasi_nila2);
         expandableView = findViewById(R.id.expandableView);
         arrowBtn = findViewById(R.id.arrowBtn);
         cardView = findViewById(R.id.cardView);
@@ -39,12 +38,11 @@ public class KonfirmasiNila extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(KonfirmasiNila.this, IkanNilaKembali.class);
+                Intent intent = new Intent(KonfirmasiNila2.this, IkanNilaKembali.class);
                 startActivity(intent);
             }
         });
     }
-
     public void konfir1(View view) {
         if (expandableView.getVisibility()==View.GONE){
             TransitionManager.beginDelayedTransition(cardView, new AutoTransition());
@@ -57,22 +55,22 @@ public class KonfirmasiNila extends AppCompatActivity {
         }
     }
     public void bankmandiri(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, ResiActivity.class);
+        Intent intent = new Intent(KonfirmasiNila2.this, ResiActivity.class);
         startActivity(intent);
     }
 
     public void bankbca(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, BankbcaActivity.class);
+        Intent intent = new Intent(KonfirmasiNila2.this, BankbcaActivity.class);
         startActivity(intent);
     }
 
     public void bankbri(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, ResiActivity.class);
+        Intent intent = new Intent(KonfirmasiNila2.this, ResiActivity.class);
         startActivity(intent);
     }
 
     public void bankbni(View view) {
-        Intent intent = new Intent(KonfirmasiNila.this, BankbniActivity.class);
+        Intent intent = new Intent(KonfirmasiNila2.this, ResiActivity.class);
         startActivity(intent);
     }
 }

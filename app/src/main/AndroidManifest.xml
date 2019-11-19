@@ -12,7 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TransferBank.BankBNI.BankbcaActivity"></activity>
+        <activity android:name=".Intent.IkanLeleUpdate2"></activity>
+        <activity android:name=".Intent.Home.HomeProyekUpdate" />
+        <activity android:name=".Intent.CariProyek2.DaftarProyekNilaTerisi" />
+        <activity android:name=".Intent.IkanNilaUpdate" />
+        <activity android:name=".KonfirmasiPembayaran.KonfirmasiNila2" />
+        <activity android:name=".Intent.IkanNilaKembali" />
+        <activity android:name=".Intent.Home.HomePembayaran" />
+        <activity android:name=".TransferBank.BankBNI.BankbcaActivity" />
         <activity android:name=".KonfirmasiPembayaran.KonfirmasiNila" />
         <activity android:name=".Intent.CariProyek2.DaftarProyekLeleTerisi" />
         <activity android:name=".Intent.CariProyek2.DaftarProyek" />
@@ -27,11 +34,7 @@
         <activity android:name=".TransferBank.BankBNI.BankbniActivity" />
         <activity android:name=".ResiActivity" />
         <activity android:name=".KonfirmasiPembayaran.KonfirmasiLele" />
-        <activity
-            android:name=".Pembayaran.PembayaranLele"
-            android:label="Test"
-            android:parentActivityName=".Intent.Home.Home2"
-            android:theme="@style/Theme" />
+        <activity android:name=".Pembayaran.PembayaranNila" />
         <activity android:name=".DaftarProyek.IkanMujair" />
         <activity android:name=".DaftarProyek.IkanLele2" />
         <activity android:name=".DaftarProyek.IkanGabus" />
@@ -40,16 +43,8 @@
         <activity android:name=".DaftarProyek.IkanNila" />
         <activity android:name=".IntroActivity" />
         <activity android:name=".DaftarProyek.IkanLele" />
-        <activity
-            android:name=".Home.PembayaranActivity"
-            android:label="@string/pembayaran"
-            android:parentActivityName=".HomeActivity"
-            android:theme="@style/Theme" />
-        <activity
-            android:name=".Home.RiwayatActivity"
-            android:label="@string/riwayat"
-            android:parentActivityName=".HomeActivity"
-            android:theme="@style/Theme" />
+        <activity android:name=".Home.PembayaranActivity" />
+        <activity android:name=".Home.RiwayatActivity" />
         <activity android:name=".Home.CariProyekActivity" />
         <activity android:name=".Profil.InformasiAkun.InfoNoHpActivity" />
         <activity android:name=".Profil.InformasiAkun.InfoKataSandiActivity" />
