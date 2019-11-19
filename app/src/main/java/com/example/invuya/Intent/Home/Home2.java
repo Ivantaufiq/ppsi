@@ -7,7 +7,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.invuya.Home.CariProyekActivity;
 import com.example.invuya.Home.ProfilActivity;
 import com.example.invuya.Home.RiwayatActivity;
 import com.example.invuya.Intent.CariProyek2.DaftarProyekLeleTerisi;

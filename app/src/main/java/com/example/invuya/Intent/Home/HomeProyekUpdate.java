@@ -7,9 +7,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.invuya.Home.CariProyekActivity;
+import com.example.invuya.RiwayatFragment2.DalamRiwayat2;
 import com.example.invuya.Home.PembayaranActivity;
-import com.example.invuya.Home.RiwayatActivity;
 import com.example.invuya.Intent.CariProyek2.DaftarProyekNilaTerisi;
 import com.example.invuya.Intent.Profil.ProfilActivity2Intent;
 import com.example.invuya.R;
@@ -33,7 +32,7 @@ public class HomeProyekUpdate extends AppCompatActivity {
     }
 
     public void pindahriwayat(View view) {
-        Intent intent = new Intent(HomeProyekUpdate.this, RiwayatActivity.class);
+        Intent intent = new Intent(HomeProyekUpdate.this, DalamRiwayat2.class);
         startActivity(intent);
     }
 

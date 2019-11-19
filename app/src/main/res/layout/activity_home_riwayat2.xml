@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Home.RiwayatActivity">
+    tools:context=".RiwayatFragment2.DalamRiwayat2">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -26,13 +26,13 @@
             android:textSize="20dp"
             android:layout_marginLeft="25dp"/>
     </androidx.appcompat.widget.Toolbar>
-    
+
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabGravity="fill"
         app:tabMode="fixed"
-        android:id="@+id/tablayout_id"
+        android:id="@+id/tablayout_id2"
         app:tabTextColor="#fff"
         app:tabIndicator="@color/colorPrimary"
         android:background="@color/colorPrimary"/>
@@ -40,6 +40,5 @@
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/viewpager_id"/>
-
+        android:id="@+id/viewpager_id2"/>
 </LinearLayout>

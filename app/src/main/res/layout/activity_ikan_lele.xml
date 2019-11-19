@@ -179,7 +179,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="10dp"
                         android:textColor="@color/hijau"
-                        android:text="39 Hari"
+                        android:text="42 Hari"
                         />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

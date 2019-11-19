@@ -12,6 +12,7 @@ import com.example.invuya.Home.PembayaranActivity;
 import com.example.invuya.Home.RiwayatActivity;
 import com.example.invuya.Intent.Profil.ProfilActivity2Intent;
 import com.example.invuya.R;
+import com.example.invuya.RiwayatFragment2.DalamRiwayat2;
 
 public class HomeDataDiriFix extends AppCompatActivity {
 
@@ -32,7 +33,7 @@ public class HomeDataDiriFix extends AppCompatActivity {
     }
 
     public void pindahriwayat(View view) {
-        Intent intent = new Intent(HomeDataDiriFix.this, RiwayatActivity.class);
+        Intent intent = new Intent(HomeDataDiriFix.this, DalamRiwayat2.class);
         startActivity(intent);
     }
 

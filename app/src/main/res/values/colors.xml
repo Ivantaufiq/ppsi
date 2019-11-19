@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#169fd8</color>
     <color name="colorPrimaryDark">#233ED8</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#169fd8</color>
     <color name="transparant">#00000000</color>
     <color name="biru">#1e6f91</color>
     <color name="putih">#ffff</color>
