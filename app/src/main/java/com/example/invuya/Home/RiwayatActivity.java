@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.invuya.HomeActivity;
+import com.example.invuya.Intent.Home.HomeDataDiriFix;
 import com.example.invuya.R;
 import com.example.invuya.RiwayatFragment.FragmentPenggalangan;
 import com.example.invuya.RiwayatFragment.FragmentProyekberjalan;
@@ -44,7 +45,7 @@ public class RiwayatActivity extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RiwayatActivity.this, HomeActivity.class);
+                Intent intent = new Intent(RiwayatActivity.this, HomeDataDiriFix.class);
                 startActivity(intent);
             }
         });

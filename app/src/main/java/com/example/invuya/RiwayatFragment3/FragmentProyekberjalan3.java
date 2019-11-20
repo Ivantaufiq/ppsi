@@ -1,4 +1,4 @@
-package com.example.invuya.RiwayatFragment2;
+package com.example.invuya.RiwayatFragment3;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,27 +11,26 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.invuya.Intent.IkanLeleRiwayat;
+import com.example.invuya.Intent.IkanLeleProyekBerjalan;
+import com.example.invuya.Intent.IkanLeleRiwayat2;
 import com.example.invuya.R;
 
-public class FragmentPenggalangan2 extends Fragment {
-
+public class FragmentProyekberjalan3 extends Fragment {
     View view;
 
-    public FragmentPenggalangan2(){
+    public FragmentProyekberjalan3(){
 
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_penggalangan2, container, false);
-
-        Button btn1 = (Button) view.findViewById(R.id.btn1);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        view = inflater.inflate(R.layout.fragment_proyekberjalan3, container, false);
+        Button btn2 = (Button) view.findViewById(R.id.btn2);
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), IkanLeleRiwayat.class);
+                Intent intent = new Intent(getActivity(), IkanLeleProyekBerjalan.class);
                 startActivity(intent);
             }
         });

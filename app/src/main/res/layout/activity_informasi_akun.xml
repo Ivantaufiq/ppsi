@@ -62,7 +62,7 @@
                     android:gravity="center_vertical"
                     android:textAlignment="center"
                     android:textColor="@color/putih"
-                    android:text="invuya@gmail.com"/>
+                    android:text="taufiq.ivan15@gmail.com"/>
 
                 <ImageView
                     android:layout_width="40dp"
@@ -105,7 +105,7 @@
                     android:textAlignment="center"
                     android:inputType="textPassword"
                     android:textColor="@color/putih"
-                    android:text="********"/>
+                    android:text="*******"/>
 
                 <ImageView
                     android:layout_width="40dp"
@@ -147,7 +147,7 @@
                     android:gravity="center_vertical"
                     android:textAlignment="center"
                     android:textColor="@color/putih"
-                    android:text="08123456789"/>
+                    android:text="0895701992393"/>
 
                 <ImageView
                     android:layout_width="40dp"

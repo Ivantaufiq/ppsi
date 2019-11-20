@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.invuya.Intent.CariProyek2.DaftarProyekLeleTerisi;
+import com.example.invuya.Intent.CariProyek2.DaftarProyekNilaPembayaran;
 import com.example.invuya.Intent.Home.HomePembayaran;
 import com.example.invuya.KonfirmasiPembayaran.KonfirmasiNila;
 import com.example.invuya.R;
@@ -33,7 +35,7 @@ public class IkanNilaKembali extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IkanNilaKembali.this, HomePembayaran.class);
+                Intent intent = new Intent(IkanNilaKembali.this, DaftarProyekNilaPembayaran.class);
                 startActivity(intent);
             }
         });

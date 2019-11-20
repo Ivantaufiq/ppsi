@@ -16,6 +16,7 @@ import com.example.invuya.DaftarProyek.IkanNila;
 import com.example.invuya.DaftarProyek.IkanPatin;
 import com.example.invuya.Intent.Home.HomeDataDiriFix;
 import com.example.invuya.Intent.Home.HomeProyekUpdate;
+import com.example.invuya.Intent.Home.HomeProyekUpdate2;
 import com.example.invuya.Intent.IkanLeleUpdate;
 import com.example.invuya.Intent.IkanLeleUpdate2;
 import com.example.invuya.Intent.IkanNilaUpdate;
@@ -35,7 +36,7 @@ public class DaftarProyekNilaTerisi extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DaftarProyekNilaTerisi.this, HomeProyekUpdate.class);
+                Intent intent = new Intent(DaftarProyekNilaTerisi.this, HomeProyekUpdate2.class);
                 startActivity(intent);
             }
         });

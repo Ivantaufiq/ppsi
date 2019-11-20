@@ -12,7 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RiwayatFragment2.DalamRiwayat2"></activity>
+        <activity android:name=".Intent.IkanLeleProyekBerjalan"></activity>
+        <activity android:name=".Intent.IkanLeleRiwayat2" />
+        <activity android:name=".Intent.IkanNilaRiwayat" />
+        <activity android:name=".Intent.Home.HomeProyekUpdate2" />
+        <activity android:name=".RiwayatFragment3.DalamRiwayat3" />
+        <activity android:name=".Intent.CariProyek2.DaftarProyekNilaPembayaran" />
+        <activity android:name=".Pembayaran.PembayaranLele" />
+        <activity android:name=".Intent.IkanLeleRiwayat" />
+        <activity android:name=".RiwayatFragment2.DalamRiwayat2" />
         <activity android:name=".Intent.IkanLeleUpdate2" />
         <activity android:name=".Intent.Home.HomeProyekUpdate" />
         <activity android:name=".Intent.CariProyek2.DaftarProyekNilaTerisi" />

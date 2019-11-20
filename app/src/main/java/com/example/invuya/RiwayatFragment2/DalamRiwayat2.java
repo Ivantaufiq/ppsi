@@ -11,6 +11,7 @@ import android.widget.ImageView;
 
 import com.example.invuya.Home.RiwayatActivity;
 import com.example.invuya.Intent.CariProyek2.DaftarProyek;
+import com.example.invuya.Intent.Home.Home2;
 import com.example.invuya.Intent.Home.HomeDataDiriFix;
 import com.example.invuya.Intent.Home.HomeProyekUpdate;
 import com.example.invuya.R;
@@ -46,7 +47,7 @@ public class DalamRiwayat2 extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DalamRiwayat2.this, HomeProyekUpdate.class);
+                Intent intent = new Intent(DalamRiwayat2.this, Home2.class);
                 startActivity(intent);
             }
         });
