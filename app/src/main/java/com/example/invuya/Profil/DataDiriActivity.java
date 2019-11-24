@@ -64,7 +64,7 @@ public class DataDiriActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        
+
         btnsimpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

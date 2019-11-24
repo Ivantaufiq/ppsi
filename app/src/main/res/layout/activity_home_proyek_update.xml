@@ -208,23 +208,23 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_marginTop="3dp"
-                android:layout_height="160dp"
+                android:layout_height="180dp"
                 android:orientation="vertical"
-                android:background="@drawable/peletikan">
+                android:background="@drawable/info1_udang">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="70dp"
-                    android:text="@string/berita2"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/berita1"
                     android:textColor="@color/putih"
-                    android:textSize="20dp"
+                    android:textSize="18dp"
                     android:textStyle="bold"/>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
-                    android:layout_marginTop="3dp"
                     android:textAllCaps="false"
                     android:onClick="berita1"
                     android:backgroundTint="@color/colorPrimary"
@@ -234,23 +234,23 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="180dp"
                 android:orientation="vertical"
-                android:background="@drawable/nilapng">
+                android:background="@drawable/info2_kripik">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="70dp"
-                    android:text="@string/berita1"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/berita2"
                     android:textColor="@color/putih"
-                    android:textSize="20dp"
+                    android:textSize="18dp"
                     android:textStyle="bold"/>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
-                    android:layout_marginTop="3dp"
                     android:textAllCaps="false"
                     android:onClick="berita2"
                     android:backgroundTint="@color/colorPrimary"
@@ -260,23 +260,49 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="180dp"
                 android:orientation="vertical"
-                android:background="@drawable/peletikan">
+                android:background="@drawable/info7">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="70dp"
-                    android:text="@string/berita2"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="75dp"
+                    android:text="@string/berita7"
                     android:textColor="@color/putih"
-                    android:textSize="20dp"
+                    android:textSize="18dp"
                     android:textStyle="bold"/>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
-                    android:layout_marginTop="3dp"
+                    android:textAllCaps="false"
+                    android:onClick="berita7"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/putih"
+                    android:paddingHorizontal="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                android:background="@drawable/info3_kepiting">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/berita3"
+                    android:textColor="@color/putih"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbaca"
                     android:textAllCaps="false"
                     android:onClick="berita3"
                     android:backgroundTint="@color/colorPrimary"
@@ -286,31 +312,108 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="180dp"
                 android:orientation="vertical"
-                android:background="@drawable/nilapng">
+                android:background="@drawable/info4_perjuangan">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="70dp"
-                    android:text="@string/berita1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="75dp"
+                    android:text="@string/berita4"
                     android:textColor="@color/putih"
-                    android:textSize="20dp"
+                    android:textSize="18dp"
                     android:textStyle="bold"/>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
-                    android:layout_marginTop="3dp"
-                    android:onClick="berita4"
                     android:textAllCaps="false"
+                    android:onClick="berita4"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/putih"
+                    android:paddingHorizontal="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                android:background="@drawable/info8">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="75dp"
+                    android:text="@string/berita8"
+                    android:textColor="@color/putih"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbaca"
+                    android:textAllCaps="false"
+                    android:onClick="berita8"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/putih"
+                    android:paddingHorizontal="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                android:background="@drawable/info5_nelayan">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="75dp"
+                    android:text="@string/berita5"
+                    android:textColor="@color/putih"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbaca"
+                    android:textAllCaps="false"
+                    android:onClick="berita5"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@color/putih"
+                    android:paddingHorizontal="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                android:background="@drawable/info6_teknologibio">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="75dp"
+                    android:text="@string/berita6"
+                    android:textColor="@color/putih"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbaca"
+                    android:textAllCaps="false"
+                    android:onClick="berita6"
                     android:backgroundTint="@color/colorPrimary"
                     android:textColor="@color/putih"
                     android:paddingHorizontal="20dp"/>
             </LinearLayout>
         </LinearLayout>
-
     </ScrollView>
 
 </LinearLayout>

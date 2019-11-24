@@ -59,4 +59,24 @@ public class HomeActivity extends AppCompatActivity {
         Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
         startActivity(link1);
     }
+
+    public void berita7(View view) {
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+        startActivity(link1);
+    }
+
+    public void berita5(View view) {
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+        startActivity(link1);
+    }
+
+    public void berita6(View view) {
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+        startActivity(link1);
+    }
+
+    public void berita8(View view) {
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+        startActivity(link1);
+    }
 }

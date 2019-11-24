@@ -47,8 +47,16 @@
     <string name="payment">Lakukan Pembayaran Investasi</string>
     <string name="user">Informasi Tentang Data Diri Anda</string>
 
-    <string name="berita1">Cara Budidaya Ikan Nila Modern</string>
-    <string name="berita2">Langkah Mudah Membuat Pakan Ikan </string>
+    <string name="berita1">Pelaku Usaha Apresiasi KKP Fokus Kembangkan Komoditas Udang</string>
+    <string name="berita2">Kripik Renyah dari Kulit dan Sirip Lele </string>
+    <string name="berita3">Pebisnis Ekspor Perikanan Ingin Regulasi Terkait Kepiting Dikaji Ulang </string>
+    <string name="berita4">Perjuangan Negara untuk Lindungi Nelayan dan Pekerja Perikanan </string>
+    <string name="berita5">Kisah Nelayan Penyelam Kompresor Berburu Ikan Karang </string>
+    <string name="berita6">Ini Keuntungan Budidaya Ikan Nila dengan Teknologi Bioflok </string>
+    <string name="berita7">Siswa SLTA Belajar Ekosistem Laut Melalui Sekolah Pantai Indonesia</string>
+    <string name="berita8">Cara Membuat Alat Pemberi Pakan Ikan Otomatis SGDB</string>
+
+
     <string name="btnbaca">Baca Disini </string>
 
     <string name="informasiakun">Informasi Akun</string>
@@ -65,7 +73,7 @@
     <string name="jadipetambak">Tertarik untuk menjadi petambak? Silahkan tekan tombol dibawah ini untuk mengisi formulir pendaftaran. </string>
 
     <string name="menu">MENU </string>
-    <string name="berita_terbaru">BERITA TERBARU </string>
+    <string name="berita_terbaru">INFORMASI TERBARU </string>
 
     <!--    Daftar Proyek-->
     <string name="lele">Budidaya Ikan Lele di Pontianak </string>

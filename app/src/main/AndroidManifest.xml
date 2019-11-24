@@ -46,7 +46,8 @@
         <activity android:name=".DaftarProyek.IkanMas" />
         <activity android:name=".DaftarProyek.IkanPatin" />
         <activity android:name=".DaftarProyek.IkanNila" />
-        <activity android:name=".IntroActivity" />
+        <activity android:name=".IntroActivity">
+        </activity>
         <activity android:name=".DaftarProyek.IkanLele" />
         <activity android:name=".Home.PembayaranActivity" />
         <activity android:name=".Home.RiwayatActivity" />
