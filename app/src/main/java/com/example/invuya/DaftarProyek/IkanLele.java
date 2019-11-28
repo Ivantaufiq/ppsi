@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.invuya.Home.CariProyekActivity;
 import com.example.invuya.Intent.CariProyek2.DaftarProyek;
@@ -63,6 +64,7 @@ public class IkanLele extends AppCompatActivity {
     public void investlele(View view) {
         Intent intent = new Intent(IkanLele.this, KonfirmasiLele.class);
         startActivity(intent);
+        Toast.makeText(getApplicationContext(),"Investasi Berhasil",Toast.LENGTH_SHORT).show();
     }
 
     public void prospektus1(View view) {

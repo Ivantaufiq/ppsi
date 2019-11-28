@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Intent.IkanLeleProyekBerjalan"></activity>
+        <activity android:name=".Intent.IkanLeleLaporan"></activity>
         <activity android:name=".Intent.IkanLeleRiwayat2" />
         <activity android:name=".Intent.IkanNilaRiwayat" />
         <activity android:name=".Intent.Home.HomeProyekUpdate2" />
@@ -47,6 +47,11 @@
         <activity android:name=".DaftarProyek.IkanPatin" />
         <activity android:name=".DaftarProyek.IkanNila" />
         <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".DaftarProyek.IkanLele" />
         <activity android:name=".Home.PembayaranActivity" />
@@ -63,11 +68,6 @@
         <activity android:name=".Profil.DataDiriActivity" />
         <activity android:name=".Home.ProfilActivity" />
         <activity android:name=".HomeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />

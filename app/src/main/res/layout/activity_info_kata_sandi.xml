@@ -58,6 +58,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnsimpan"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:text="@string/simpan"

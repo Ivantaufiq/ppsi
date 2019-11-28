@@ -125,8 +125,6 @@
                     android:layout_marginLeft="100dp"
                     android:src="@drawable/rightarrowblue" />
             </LinearLayout>
-
-
         </androidx.cardview.widget.CardView>
 
 

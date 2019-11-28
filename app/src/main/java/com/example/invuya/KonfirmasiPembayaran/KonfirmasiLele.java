@@ -14,6 +14,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -24,6 +25,7 @@ import com.example.invuya.R;
 
 public class KonfirmasiLele extends AppCompatActivity {
     Button kirim,gantifoto;
+    EditText namarek,norek,bank;
     Toolbar toolbar;
     ImageView arrow, imageview;
     private static final int IMAGE_PICK_CODE = 1000;
@@ -34,10 +36,14 @@ public class KonfirmasiLele extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_konfirmasi_lele);
         toolbar = findViewById(R.id.toolbar);
+
+        namarek = findViewById(R.id.namarek);
+        norek = findViewById(R.id.norek);
+        bank = findViewById(R.id.bank);
         arrow = findViewById(R.id.arrow);
         kirim = findViewById(R.id.kirim);
-        imageview = (ImageView) findViewById(R.id.image_view);
-        gantifoto = (Button) findViewById(R.id.gantifoto);
+        imageview = findViewById(R.id.image_view);
+        gantifoto = findViewById(R.id.gantifoto);
 
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,7 +82,7 @@ public class KonfirmasiLele extends AppCompatActivity {
                 Intent intent = new Intent(KonfirmasiLele.this, IkanLeleUpdate.class);
                 startActivity(intent);
 
-                Toast.makeText(getApplicationContext(),"Berhasil Kirim",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Konfirmasi Pembayaran Berhasil Dilakukan",Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -55,7 +55,7 @@
                 android:backgroundTint="@color/putih"/>
 
             <EditText
-                android:id="@+id/konfirmasipw"
+                android:id="@+id/konfirmasipass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/putih"

@@ -52,7 +52,7 @@ public class KonfirmasiNila2 extends AppCompatActivity {
                 Intent intent = new Intent(KonfirmasiNila2.this, IkanNilaUpdate.class);
                 startActivity(intent);
 
-                Toast.makeText(getApplicationContext(),"Berhasil Kirim",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Konfirmasi Pembayaran Berhasil Dilakukan",Toast.LENGTH_SHORT).show();
             }
         });
 

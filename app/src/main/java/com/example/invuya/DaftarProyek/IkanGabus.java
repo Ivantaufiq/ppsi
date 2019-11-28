@@ -16,8 +16,8 @@ import com.example.invuya.Intent.CariProyek2.DaftarProyek;
 import com.example.invuya.R;
 
 public class IkanGabus extends AppCompatActivity {
-    private int naik5 = 0;
-    Button countup5, countdown5;
+    private int naik = 0;
+    Button countup, countdown;
     TextView hasil5;
     Toolbar toolbar;
     ImageView arrow;
@@ -27,9 +27,9 @@ public class IkanGabus extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ikan_gabus);
 
-        countup5 = (Button) findViewById(R.id.countup5);
-        countdown5 = (Button) findViewById(R.id.countdown5);
-        hasil5 = (TextView) findViewById(R.id.hasil5);
+        countup = findViewById(R.id.countup5);
+        countdown = findViewById(R.id.countdown5);
+        hasil5 = findViewById(R.id.hasil5);
 
         toolbar = findViewById(R.id.toolbar);
         arrow = findViewById(R.id.arrow);
@@ -42,19 +42,19 @@ public class IkanGabus extends AppCompatActivity {
             }
         });
 
-        countup5.setOnClickListener(new View.OnClickListener() {
+        countup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik5 ++;
-                hasil5.setText(Integer.toString(naik5));
+                naik ++;
+                hasil5.setText(Integer.toString(naik));
             }
         });
 
-        countdown5.setOnClickListener(new View.OnClickListener() {
+        countdown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik5 --;
-                hasil5.setText(Integer.toString(naik5));
+                naik --;
+                hasil5.setText(Integer.toString(naik));
             }
         });
     }

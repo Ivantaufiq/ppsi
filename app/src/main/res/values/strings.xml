@@ -54,7 +54,7 @@
     <string name="berita5">Kisah Nelayan Penyelam Kompresor Berburu Ikan Karang </string>
     <string name="berita6">Ini Keuntungan Budidaya Ikan Nila dengan Teknologi Bioflok </string>
     <string name="berita7">Siswa SLTA Belajar Ekosistem Laut Melalui Sekolah Pantai Indonesia</string>
-    <string name="berita8">Cara Membuat Alat Pemberi Pakan Ikan Otomatis SGDB</string>
+    <string name="berita8">Kalangan Swasta dan LSM Cetak Petani Muda</string>
 
 
     <string name="btnbaca">Baca Disini </string>
@@ -132,7 +132,7 @@
     <string name="isikewajiban">
         <b>Kewajiban Investor</b>\n
         1.	Investor wajib melengkapi data diri sebelum memulai investasi.\n\n
-        2.	Investor wajib melakukan pembayaran melalui transfer bank yang sudah ditentukan oleh INVUYA mulai dari minimal 1 lembar = Rp 100.000,-
+        2.	Investor wajib melakukan pembayaran melalui transfer bank yang sudah ditentukan oleh INVUYA mulai dari minimal 1 lot = Rp 100.000,-
         hingga maksimal total dana crowdfunding yang dibutuhkan.\n\n
         3.	Investor wajib melakukan verivikasi transfer dana ke platform INVUYA.\n\n
         4.	Investor yang mengunjungi langsung lokasi budidaya ikan yang diinvestasikan,
@@ -161,9 +161,9 @@
     <string name="faq3">Berapa keuntungan yang didapatkan ketika bergabung dengan INVUYA?</string>
     <string name="isifaq3">Keuntungan diperoleh dari hasil penjualan ikan setelah dikurangi seluruh biaya operasi.
         Dari total keuntungan hasil penjualan, dilakukan bagi hasil dengan pembagian berikut.\n
-        1.	Investor 50% \n\n
-        2.	petambak ikan 35% \n\n
-        3.	INVUYA 15% \n\n
+        1.	Investor 45% \n\n
+        2.	petambak ikan 45% \n\n
+        3.	INVUYA 10% \n\n
         Proporsi bagi-hasil dapat berbeda untuk setiap produk, bergantung pada kontrak kerjasama antara INVUYA dengan mitra,
         dan dapat dilihat pada dokumen Prospektus.
 </string>

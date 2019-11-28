@@ -15,9 +15,9 @@ import com.example.invuya.Intent.CariProyek2.DaftarProyek;
 import com.example.invuya.R;
 
 public class IkanPatin extends AppCompatActivity {
-    private int naik3 = 0;
-    Button countup3, countdown3;
-    TextView hasil3;
+    private int naik = 0;
+    Button countup, countdown;
+    TextView hasil;
     Toolbar toolbar;
     ImageView arrow;
 
@@ -26,9 +26,9 @@ public class IkanPatin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ikan_patin);
 
-        countup3 = (Button) findViewById(R.id.countup3);
-        countdown3 = (Button) findViewById(R.id.countdown3);
-        hasil3 = (TextView) findViewById(R.id.hasil3);
+        countup = findViewById(R.id.countup3);
+        countdown = findViewById(R.id.countdown3);
+        hasil = findViewById(R.id.hasil3);
         toolbar = findViewById(R.id.toolbar);
         arrow = findViewById(R.id.arrow);
 
@@ -40,19 +40,19 @@ public class IkanPatin extends AppCompatActivity {
             }
         });
 
-        countup3.setOnClickListener(new View.OnClickListener() {
+        countup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik3 ++;
-                hasil3.setText(Integer.toString(naik3));
+                naik ++;
+                hasil.setText(Integer.toString(naik));
             }
         });
 
-        countdown3.setOnClickListener(new View.OnClickListener() {
+        countdown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik3 --;
-                hasil3.setText(Integer.toString(naik3));
+                naik --;
+                hasil.setText(Integer.toString(naik));
             }
         });
     }

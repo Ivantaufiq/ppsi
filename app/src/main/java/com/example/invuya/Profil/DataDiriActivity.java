@@ -31,13 +31,12 @@ import java.util.Calendar;
 
 public class DataDiriActivity extends AppCompatActivity {
     Toolbar toolbar;
-    ImageView arrow;
+    ImageView arrow,imageview;
     private static final String TAG = "DataDiriActivity";
     private DatePickerDialog.OnDateSetListener mDateSetListener;
-    ImageView imageview;
     Button gantifoto, btnsimpan;
     TextView tgllahir;
-    EditText inputnama, nikprofil;
+    EditText inputnama, nikprofil, nohp, alamat, gender;
 
     private static final int IMAGE_PICK_CODE = 1000;
     private static final int PERMISSION_CODE = 1001;
@@ -52,6 +51,9 @@ public class DataDiriActivity extends AppCompatActivity {
         gantifoto = (Button) findViewById(R.id.gantifoto);
         tgllahir = (TextView) findViewById(R.id.tgllahir);
         btnsimpan = findViewById(R.id.btnsimpan);
+        nohp = findViewById(R.id.nohp);
+        alamat = findViewById(R.id.alamat);
+        gender = findViewById(R.id.gender);
         inputnama = findViewById(R.id.inputnamaprofil);
         nikprofil = findViewById(R.id.nikprofil);
         toolbar = findViewById(R.id.toolbar);
@@ -123,9 +125,6 @@ public class DataDiriActivity extends AppCompatActivity {
             }
         });
     }
-
-    private void simpan_onclick(View view) {
-        }
 
     private void pickImageFromGallery() {
         Intent intent = new Intent(Intent.ACTION_PICK);

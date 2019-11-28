@@ -198,12 +198,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/berita_terbaru"
                 android:textColor="@color/putih"
-                android:layout_marginTop="10dp"
                 android:textSize="24dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -304,7 +304,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
                     android:textAllCaps="false"
-                    android:onClick="berita1"
+                    android:onClick="berita3"
                     android:backgroundTint="@color/colorPrimary"
                     android:textColor="@color/putih"
                     android:paddingHorizontal="20dp"/>
@@ -330,7 +330,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
                     android:textAllCaps="false"
-                    android:onClick="berita1"
+                    android:onClick="berita4"
                     android:backgroundTint="@color/colorPrimary"
                     android:textColor="@color/putih"
                     android:paddingHorizontal="20dp"/>
@@ -346,7 +346,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginTop="75dp"
+                    android:layout_marginTop="70dp"
                     android:text="@string/berita8"
                     android:textColor="@color/putih"
                     android:textSize="18dp"
@@ -356,7 +356,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
                     android:textAllCaps="false"
-                    android:onClick="berita1"
+                    android:onClick="berita8"
                     android:backgroundTint="@color/colorPrimary"
                     android:textColor="@color/putih"
                     android:paddingHorizontal="20dp"/>
@@ -382,7 +382,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
                     android:textAllCaps="false"
-                    android:onClick="berita1"
+                    android:onClick="berita5"
                     android:backgroundTint="@color/colorPrimary"
                     android:textColor="@color/putih"
                     android:paddingHorizontal="20dp"/>
@@ -408,15 +408,11 @@
                     android:layout_height="wrap_content"
                     android:text="@string/btnbaca"
                     android:textAllCaps="false"
-                    android:onClick="berita1"
+                    android:onClick="berita6"
                     android:backgroundTint="@color/colorPrimary"
                     android:textColor="@color/putih"
                     android:paddingHorizontal="20dp"/>
             </LinearLayout>
-
-
-
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

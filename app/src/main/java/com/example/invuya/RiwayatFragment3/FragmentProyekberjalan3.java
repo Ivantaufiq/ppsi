@@ -11,8 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.invuya.Intent.IkanLeleProyekBerjalan;
-import com.example.invuya.Intent.IkanLeleRiwayat2;
+import com.example.invuya.Intent.IkanLeleLaporan;
 import com.example.invuya.R;
 
 public class FragmentProyekberjalan3 extends Fragment {
@@ -30,7 +29,7 @@ public class FragmentProyekberjalan3 extends Fragment {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), IkanLeleProyekBerjalan.class);
+                Intent intent = new Intent(getActivity(), IkanLeleLaporan.class);
                 startActivity(intent);
             }
         });

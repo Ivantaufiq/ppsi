@@ -21,7 +21,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ubah Nomor Handphone"
+            android:text="Ganti Nomor Handphone"
             android:textColor="@color/putih"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"/>
@@ -80,6 +80,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnsimpan"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:text="@string/simpan"

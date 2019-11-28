@@ -34,17 +34,17 @@ public class HubKamiActivity extends AppCompatActivity {
     }
 
     public void facebook(View view) {
-        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com"));
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://facebook.com/Invuya-Official-108137093994246"));
         startActivity(link1);
     }
 
     public void instagram(View view) {
-        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com"));
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://instagram.com/invuya_official?igshid=8vayoe1k43bx"));
         startActivity(link1);
     }
 
     public void youtube(View view) {
-        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com"));
+        Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCLXS5zndl9RlK4ID5ImNJGA"));
         startActivity(link1);
     }
 }

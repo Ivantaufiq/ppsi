@@ -9,15 +9,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.invuya.Intent.CariProyek2.DaftarProyek;
 import com.example.invuya.KonfirmasiPembayaran.KonfirmasiNila;
 import com.example.invuya.R;
 
 public class IkanNila extends AppCompatActivity {
-    private int naik2 = 0;
-    Button countup2, countdown2;
-    TextView hasil2;
+    private int naik = 0;
+    Button countup, countdown;
+    TextView hasil;
     Toolbar toolbar;
     ImageView arrow;
 
@@ -26,9 +27,9 @@ public class IkanNila extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ikan_nila);
 
-        countup2 = (Button) findViewById(R.id.countup2);
-        countdown2 = (Button) findViewById(R.id.countdown2);
-        hasil2 = (TextView) findViewById(R.id.hasil2);
+        countup = findViewById(R.id.countup2);
+        countdown = findViewById(R.id.countdown2);
+        hasil = findViewById(R.id.hasil2);
         toolbar = findViewById(R.id.toolbar);
         arrow = findViewById(R.id.arrow);
 
@@ -40,19 +41,19 @@ public class IkanNila extends AppCompatActivity {
             }
         });
 
-        countup2.setOnClickListener(new View.OnClickListener() {
+        countup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik2 ++;
-                hasil2.setText(Integer.toString(naik2));
+                naik ++;
+                hasil.setText(Integer.toString(naik));
             }
         });
 
-        countdown2.setOnClickListener(new View.OnClickListener() {
+        countdown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik2 --;
-                hasil2.setText(Integer.toString(naik2));
+                naik --;
+                hasil.setText(Integer.toString(naik));
             }
         });
     }
@@ -60,5 +61,6 @@ public class IkanNila extends AppCompatActivity {
     public void investnila(View view) {
         Intent intent = new Intent(IkanNila.this, KonfirmasiNila.class);
         startActivity(intent);
+        Toast.makeText(getApplicationContext(),"Investasi Berhasil",Toast.LENGTH_SHORT).show();
     }
 }

@@ -15,9 +15,9 @@ import com.example.invuya.Intent.CariProyek2.DaftarProyek;
 import com.example.invuya.R;
 
 public class IkanMujair extends AppCompatActivity {
-    private int naik7 = 0;
-    Button countup7, countdown7;
-    TextView hasil7;
+    private int naik = 0;
+    Button countup, countdown;
+    TextView hasil;
     Toolbar toolbar;
     ImageView arrow;
 
@@ -26,9 +26,9 @@ public class IkanMujair extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ikan_mujair);
 
-        countup7 = (Button) findViewById(R.id.countup7);
-        countdown7 = (Button) findViewById(R.id.countdown7);
-        hasil7 = (TextView) findViewById(R.id.hasil7);
+        countup = findViewById(R.id.countup7);
+        countdown = findViewById(R.id.countdown7);
+        hasil = findViewById(R.id.hasil7);
         toolbar = findViewById(R.id.toolbar);
         arrow = findViewById(R.id.arrow);
 
@@ -40,19 +40,19 @@ public class IkanMujair extends AppCompatActivity {
             }
         });
 
-        countup7.setOnClickListener(new View.OnClickListener() {
+        countup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik7 ++;
-                hasil7.setText(Integer.toString(naik7));
+                naik ++;
+                hasil.setText(Integer.toString(naik));
             }
         });
 
-        countdown7.setOnClickListener(new View.OnClickListener() {
+        countdown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                naik7 --;
-                hasil7.setText(Integer.toString(naik7));
+                naik --;
+                hasil.setText(Integer.toString(naik));
             }
         });
     }

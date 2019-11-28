@@ -17,7 +17,7 @@ import com.example.invuya.Database.AccountDB;
 import com.example.invuya.Entitas.Account;
 
 public class RegisterActivity extends AppCompatActivity {
-    EditText txtnama, txtemail, txtpassword, kpassword;
+    EditText txtnama, txtemail, txtpassword, txtkpass;
     Button btndaftar, btnkembali;
 
     @Override
@@ -25,12 +25,12 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        txtemail = (EditText) findViewById(R.id.txtemail);
-        txtnama = (EditText) findViewById(R.id.txtnama);
-        txtpassword = (EditText) findViewById(R.id.txtpassword);
-        kpassword = (EditText) findViewById(R.id.konfirmasipw);
-        btndaftar = (Button) findViewById(R.id.btndaftar);
-        btnkembali = (Button) findViewById(R.id.btnkembali);
+        txtemail = findViewById(R.id.txtemail);
+        txtnama = findViewById(R.id.txtnama);
+        txtpassword = findViewById(R.id.txtpassword);
+        btndaftar = findViewById(R.id.btndaftar);
+        btnkembali = findViewById(R.id.btnkembali);
+        txtkpass = findViewById(R.id.konfirmasipass);
 
         btndaftar.setOnClickListener(new View.OnClickListener() {
             @Override

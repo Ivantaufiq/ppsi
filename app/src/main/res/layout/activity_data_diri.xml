@@ -86,6 +86,7 @@
                 android:text="@string/nohp"
                 android:layout_marginTop="15dp"/>
             <EditText
+                android:id="@+id/nohp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -97,6 +98,7 @@
                 android:text="@string/alamat"
                 android:layout_marginTop="15dp"/>
             <EditText
+                android:id="@+id/alamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
@@ -108,6 +110,7 @@
                 android:text="@string/gender"
                 android:layout_marginTop="15dp"/>
             <EditText
+                android:id="@+id/gender"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
